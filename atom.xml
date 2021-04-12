@@ -17,7 +17,7 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Debian9开启自带的bbr加速</title>
+    <title>Debian9/10开启自带的bbr加速</title>
     <link href="https://blog.yuchen.tech/posts/2021/open-debian-bbr.html"/>
     <id>https://blog.yuchen.tech/posts/2021/open-debian-bbr.html</id>
     <published>2021-02-08T15:47:49.000Z</published>
