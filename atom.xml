@@ -6,7 +6,7 @@
   <link href="https://blog.yuchen.tech/atom.xml" rel="self"/>
   
   <link href="https://blog.yuchen.tech/"/>
-  <updated>2021-04-12T16:13:13.000Z</updated>
+  <updated>2021-02-08T15:47:49.000Z</updated>
   <id>https://blog.yuchen.tech/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>算法与数据结构实践课</title>
-    <link href="https://blog.yuchen.tech/posts/2021/data-structure.html"/>
-    <id>https://blog.yuchen.tech/posts/2021/data-structure.html</id>
-    <published>2021-04-12T16:13:13.000Z</published>
-    <updated>2021-04-12T16:13:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h1>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;第一节&quot;&gt;&lt;a href=&quot;#第一节&quot; class=&quot;headerlink&quot; title=&quot;第一节&quot;&gt;&lt;/a&gt;第一节&lt;/h1&gt;</summary>
-      
-    
-    
-    
-    <category term="code" scheme="https://blog.yuchen.tech/categories/code/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>Debian9/10开启自带的bbr加速</title>

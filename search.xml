@@ -4,25 +4,6 @@
   
     
     <entry>
-      <title>算法与数据结构实践课</title>
-      <link href="posts/2021/data-structure.html"/>
-      <url>posts/2021/data-structure.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="第一节"><a href="#第一节" class="headerlink" title="第一节"></a>第一节</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> code </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Debian9/10开启自带的bbr加速</title>
       <link href="posts/2021/open-debian-bbr.html"/>
       <url>posts/2021/open-debian-bbr.html</url>
