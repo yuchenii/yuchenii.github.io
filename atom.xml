@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>YuChen&#39;s Blog</title>
   
-  
+  <subtitle>雨辰的博客</subtitle>
   <link href="https://blog.yuchen.tech/atom.xml" rel="self"/>
   
   <link href="https://blog.yuchen.tech/"/>
