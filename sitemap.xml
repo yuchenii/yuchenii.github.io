@@ -85,7 +85,7 @@
 
   <url>
     <loc>https://blog.yuchen.tech/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -93,28 +93,28 @@
   
   <url>
     <loc>https://blog.yuchen.tech/tags/hexo/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.yuchen.tech/tags/Debian/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.yuchen.tech/tags/bbr/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.yuchen.tech/tags/git/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -123,21 +123,21 @@
   
   <url>
     <loc>https://blog.yuchen.tech/categories/hexo/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.yuchen.tech/categories/Linux/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://blog.yuchen.tech/categories/git/</loc>
-    <lastmod>2022-05-28</lastmod>
+    <lastmod>2022-07-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
