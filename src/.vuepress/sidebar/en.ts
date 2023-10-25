@@ -16,7 +16,7 @@ export const enSidebar = sidebar({
       prefix: "posts/",
       children: "structure",
     },
-    "intro",
+    "about",
     "slides",
   ],
   // "/en/snippets/": [

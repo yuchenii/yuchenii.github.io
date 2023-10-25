@@ -20,12 +20,18 @@ export default defineUserConfig({
     },
   },
 
+  markdown: {
+    headers: {
+      level: [2,3, 4],
+    },
+  },
+
   theme,
 
   alias: {
     "@theme-hope/modules/blog/components/BlogHero": path.resolve(
       __dirname,
-      "./components/Theme/BlogHero.vue",
+      "./components/Theme/BlogHero.vue"
     ),
   },
 

@@ -7,7 +7,7 @@ const MR_HOPE_AVATAR =
 
 export default hopeTheme(
   {
-    hostname: "https://yuchenii.github.io",
+    hostname: "https://blog.yuchen.tech",
 
     author: {
       name: "Yuchen",
@@ -16,6 +16,8 @@ export default hopeTheme(
 
     favicon: "/favicon.png",
 
+    fullscreen: true,
+
     iconAssets: "fontawesome-with-brands",
 
     logo: "https://blog.yuchen.tech/img/avatar.webp",
@@ -23,6 +25,8 @@ export default hopeTheme(
     repo: "yuchenii/yuchenii.github.io",
 
     docsDir: "src",
+
+    headerDepth: 3,
 
     navbarLayout: {
       start: ["Brand"],
@@ -82,7 +86,7 @@ export default hopeTheme(
 
         blog: {
           description: "A FrontEnd programmer",
-          intro: "/en/intro.html",
+          intro: "/en/about",
         },
 
         metaLocales: {
@@ -102,11 +106,12 @@ export default hopeTheme(
 
         footer:
           '<div><a target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=50023702000230" style="line-height:20px;margin-right: 5px;"><img src="https://beian.mps.gov.cn/web/assets/logo01.6189a29f.png" style="width: 20px;height: 20px;vertical-align: bottom;"><span style="/* float:left; */height:20px;line-height:20px;/* margin: 0px 0px 0px 5px; */">渝公网安备 50023702000230号</span></a>|<a href="https://beian.miit.gov.cn/" target="_blank" style="margin-left: 5px;">渝ICP备2020012887号-2</a></div>',
+        
         displayFooter: true,
 
         blog: {
           description: "一个前端开发者",
-          intro: "/intro.html",
+          intro: "/about",
         },
 
         // page meta
@@ -173,6 +178,12 @@ export default hopeTheme(
         tabs: true,
         vPre: true,
         vuePlayground: true,
+      },
+
+      feed: {
+        atom: true,
+        json: true,
+        rss: true,
       },
 
       // uncomment these if you want a PWA
