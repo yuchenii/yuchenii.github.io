@@ -2,51 +2,37 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   "/",
-  "/demo/",
   {
-    text: "博文",
-    icon: "pen-to-square",
-    prefix: "/posts/",
+    text: "代码",
+    icon: "fa-solid fa-code",
+    prefix: "/snippets",
     children: [
       {
-        text: "苹果",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "苹果1", icon: "pen-to-square", link: "1" },
-          { text: "苹果2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
+        text: "CSS",
+        icon: "fa-brands fa-css3-alt",
+        link: "/css",
       },
       {
-        text: "香蕉",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "香蕉 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "香蕉 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+        text: "JS",
+        icon: "fa-brands fa-square-js",
+        link: "/js",
       },
-      { text: "樱桃", icon: "pen-to-square", link: "cherry" },
-      { text: "火龙果", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "分类",
+    icon: "fa-solid fa-folder-open",
+    link: "/category",
   },
+  {
+    text: "标签",
+    icon: "fa-solid fa-tags",
+    link: "/tag",
+  },
+  {
+    text: "归档",
+    icon: "fa-solid fa-box-archive",
+    link: "/timeline",
+  },
+  "/demo/",
 ]);

@@ -19,4 +19,21 @@ export const enSidebar = sidebar({
     "intro",
     "slides",
   ],
+  // "/en/snippets/": [
+  //   {
+  //     text: "CSS",
+  //     icon: "fa-brands fa-css3-alt",
+  //     prefix: "css/",
+  //     collapsible: true,
+  //     children: "structure",
+  //   },
+  //   {
+  //     text: "JS",
+  //     icon: "fa-brands fa-square-js",
+  //     prefix: "js/",
+  //     collapsible: true,
+  //     children: "structure",
+  //   },
+  // ],
+  "/en/snippets/": "structure",
 });

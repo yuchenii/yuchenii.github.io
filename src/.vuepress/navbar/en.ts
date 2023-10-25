@@ -2,51 +2,37 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/en",
-  "/en/demo/",
   {
-    text: "Posts",
-    icon: "pen-to-square",
-    prefix: "/en/posts/",
+    text: "Code",
+    icon: "fa-solid fa-code",
+    prefix: "/en/snippets",
     children: [
       {
-        text: "Apple",
-        icon: "pen-to-square",
-        prefix: "apple/",
-        children: [
-          { text: "Apple1", icon: "pen-to-square", link: "1" },
-          { text: "Apple2", icon: "pen-to-square", link: "2" },
-          "3",
-          "4",
-        ],
+        text: "CSS",
+        icon: "fa-brands fa-css3-alt",
+        link: "/css",
       },
       {
-        text: "Banana",
-        icon: "pen-to-square",
-        prefix: "banana/",
-        children: [
-          {
-            text: "Banana 1",
-            icon: "pen-to-square",
-            link: "1",
-          },
-          {
-            text: "Banana 2",
-            icon: "pen-to-square",
-            link: "2",
-          },
-          "3",
-          "4",
-        ],
+        text: "JS",
+        icon: "fa-brands fa-square-js",
+        link: "/js",
       },
-      { text: "Cherry", icon: "pen-to-square", link: "cherry" },
-      { text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-      "tomato",
-      "strawberry",
     ],
   },
   {
-    text: "V2 Docs",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/",
+    text: "Category",
+    icon: "fa-solid fa-folder-open",
+    link: "/en/category",
   },
+  {
+    text: "Tag",
+    icon: "fa-solid fa-tags",
+    link: "/en/tag",
+  },
+  {
+    text: "Archive",
+    icon: "fa-solid fa-box-archive",
+    link: "/en/timeline",
+  },
+  "/en/demo/",
 ]);
