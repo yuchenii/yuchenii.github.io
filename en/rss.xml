@@ -6,21 +6,21 @@
     <link>https://blog.yuchen.tech/en/</link>
     <description>Yuchen&amp;apos;s Blog</description>
     <language>en-US</language>
-    <pubDate>Thu, 26 Oct 2023 15:19:16 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2023 15:19:16 GMT</lastBuildDate>
+    <pubDate>Thu, 26 Oct 2023 16:06:43 GMT</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2023 16:06:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Snippets</category>
     <category>Guide</category>
     <category>Vegetable</category>
     <item>
-      <title>Intro Page</title>
+      <title>about</title>
       <link>https://blog.yuchen.tech/en/about.html</link>
       <guid>https://blog.yuchen.tech/en/about.html</guid>
-      <source url="https://blog.yuchen.tech/en/rss.xml">Intro Page</source>
-      <description>Intro Page Place your introduction and profile here.</description>
+      <source url="https://blog.yuchen.tech/en/rss.xml">about</source>
+      <description>about Place your introduction and profile here.</description>
       <pubDate>Wed, 25 Oct 2023 15:31:13 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Intro Page</h1>
+      <content:encoded><![CDATA[<h1> about</h1>
 <p>Place your introduction and profile here.</p>
 ]]></content:encoded>
       <enclosure url="https://blog.yuchen.tech/assets/images/cover3.jpg" type="image/jpeg"/>

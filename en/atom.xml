@@ -4,7 +4,7 @@
   <title>Yuchen&amp;apos;s Blog</title>
   <subtitle>Yuchen&amp;apos;s Blog</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2023-10-26T15:19:16.626Z</updated>
+  <updated>2023-10-26T16:06:43.558Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/en/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/en/"/>
@@ -15,14 +15,14 @@
     <name>Ms.Hope</name>
   </contributor>
   <entry>
-    <title type="text">Intro Page</title>
+    <title type="text">about</title>
     <id>https://blog.yuchen.tech/en/about.html</id>
     <link href="https://blog.yuchen.tech/en/about.html"/>
-    <updated>2023-10-25T15:31:13.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Intro Page</h1>
+    <updated>2023-10-26T16:04:50.000Z</updated>
+    <summary type="html"><![CDATA[<h1> about</h1>
 <p>Place your introduction and profile here.</p>
 ]]></summary>
-    <content type="html"><![CDATA[<h1> Intro Page</h1>
+    <content type="html"><![CDATA[<h1> about</h1>
 <p>Place your introduction and profile here.</p>
 ]]></content>
     <published>2023-10-25T15:31:13.000Z</published>

@@ -4,7 +4,7 @@
   <title>雨辰的博客</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2023-10-26T15:19:16.626Z</updated>
+  <updated>2023-10-26T16:06:43.558Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
@@ -18,7 +18,7 @@
     <title type="text">关于</title>
     <id>https://blog.yuchen.tech/about.html</id>
     <link href="https://blog.yuchen.tech/about.html"/>
-    <updated>2023-10-26T09:52:00.000Z</updated>
+    <updated>2023-10-26T16:04:50.000Z</updated>
     <summary type="html"><![CDATA[<h1> 关于</h1>
 <h2> 关于本站</h2>
 <ul>

@@ -7,14 +7,14 @@
   "favicon": "https://blog.yuchen.tech/favicon.png",
   "items": [
     {
-      "title": "Intro Page",
+      "title": "about",
       "url": "https://blog.yuchen.tech/en/about.html",
       "id": "https://blog.yuchen.tech/en/about.html",
-      "summary": "Intro Page Place your introduction and profile here.",
-      "content_html": "<h1> Intro Page</h1>\n<p>Place your introduction and profile here.</p>\n",
+      "summary": "about Place your introduction and profile here.",
+      "content_html": "<h1> about</h1>\n<p>Place your introduction and profile here.</p>\n",
       "image": "https://blog.yuchen.tech/assets/images/cover3.jpg",
       "date_published": "2023-10-25T15:31:13.000Z",
-      "date_modified": "2023-10-25T15:31:13.000Z",
+      "date_modified": "2023-10-26T16:04:50.000Z",
       "authors": [],
       "tags": []
     },
