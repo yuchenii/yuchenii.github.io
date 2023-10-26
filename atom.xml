@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.yuchen.tech/atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+  <id>https://blog.yuchen.tech/</id>
+  <title>雨辰的博客</title>
+  <subtitle>雨辰的博客</subtitle>
+  <icon>https://blog.yuchen.tech/favicon.png</icon>
+  <updated>2023-10-26T15:19:16.626Z</updated>
+  <generator>vuepress-plugin-feed2</generator>
+  <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
+  <link rel="alternate" href="https://blog.yuchen.tech/"/>
+  <category term="使用指南"/>
+  <category term="蔬菜"/>
+  <category term="Snippets"/>
+  <contributor>
+    <name>Ms.Hope</name>
+  </contributor>
+  <entry>
+    <title type="text">关于</title>
+    <id>https://blog.yuchen.tech/about.html</id>
+    <link href="https://blog.yuchen.tech/about.html"/>
+    <updated>2023-10-26T09:52:00.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 关于</h1>
+<h2> 关于本站</h2>
+<ul>
+<li>本站基于<a href="https://github.com/vuepress/vuepress-next" target="_blank" rel="noopener noreferrer">VuePress</a>搭建，主题为<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">Hope</a></li>
+<li>国内托管在Coding上，国外托管在Github上</li>
+<li>域名由阿里云提供，并提供解析服务</li>
+<li>本站所有的图片均来自wallhaven，侵删</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h1> 关于</h1>
+<h2> 关于本站</h2>
+<ul>
+<li>本站基于<a href="https://github.com/vuepress/vuepress-next" target="_blank" rel="noopener noreferrer">VuePress</a>搭建，主题为<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">Hope</a></li>
+<li>国内托管在Coding上，国外托管在Github上</li>
+<li>域名由阿里云提供，并提供解析服务</li>
+<li>本站所有的图片均来自wallhaven，侵删</li>
+</ul>
+]]></content>
+    <published>2023-10-25T15:31:13.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">css代码片段测试</title>
+    <id>https://blog.yuchen.tech/snippets/css/test.html</id>
+    <link href="https://blog.yuchen.tech/snippets/css/test.html"/>
+    <updated>2023-10-25T09:52:14.000Z</updated>
+    <summary type="html"><![CDATA[<h1> css代码片段测试</h1>
+]]></summary>
+    <content type="html"><![CDATA[<h1> css代码片段测试</h1>
+]]></content>
+    <published>2023-10-25T09:52:14.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">js代码片段测试</title>
+    <id>https://blog.yuchen.tech/snippets/js/test.html</id>
+    <link href="https://blog.yuchen.tech/snippets/js/test.html"/>
+    <updated>2023-10-25T09:52:14.000Z</updated>
+    <summary type="html"><![CDATA[<h1> js代码片段测试</h1>
+]]></summary>
+    <content type="html"><![CDATA[<h1> js代码片段测试</h1>
+]]></content>
+    <published>2023-10-25T09:52:14.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">幻灯片页</title>
+    <id>https://blog.yuchen.tech/slides.html</id>
+    <link href="https://blog.yuchen.tech/slides.html"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<!-- markdownlint-disable MD024 MD033 MD051 -->
+]]></summary>
+    <content type="html"><![CDATA[<!-- markdownlint-disable MD024 MD033 MD051 -->
+]]></content>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">主要功能与配置演示</title>
+    <id>https://blog.yuchen.tech/demo/</id>
+    <link href="https://blog.yuchen.tech/demo/"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<h2> 目录</h2>
+<ul>
+<li>
+<p><a href="/demo/markdown.html" target="blank">Markdown 展示</a></p>
+</li>
+<li>
+<p><a href="/demo/page.html" target="blank">页面展示</a></p>
+</li>
+<li>
+<p><a href="/demo/disable.html" target="blank">禁用展示</a></p>
+</li>
+<li>
+<p><a href="/demo/encrypt.html" target="blank">加密展示</a></p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h2> 目录</h2>
+<ul>
+<li>
+<p><a href="/demo/markdown.html" target="blank">Markdown 展示</a></p>
+</li>
+<li>
+<p><a href="/demo/page.html" target="blank">页面展示</a></p>
+</li>
+<li>
+<p><a href="/demo/disable.html" target="blank">禁用展示</a></p>
+</li>
+<li>
+<p><a href="/demo/encrypt.html" target="blank">加密展示</a></p>
+</li>
+</ul>
+]]></content>
+    <category term="使用指南"/>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">布局与功能禁用</title>
+    <id>https://blog.yuchen.tech/demo/disable.html</id>
+    <link href="https://blog.yuchen.tech/demo/disable.html"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>
+<!-- more -->
+<p>本页面就是一个示例，禁用了如下功能:</p>
+<ul>
+<li>导航栏</li>
+<li>侧边栏</li>
+<li>路径导航</li>
+<li>页面信息</li>
+<li>贡献者</li>
+<li>编辑此页链接</li>
+<li>更新时间</li>
+<li>上一篇/下一篇 链接</li>
+<li>评论</li>
+<li>页脚</li>
+<li>返回顶部按钮</li>
+</ul>
+]]></content>
+    <category term="使用指南"/>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">密码加密的文章</title>
+    <id>https://blog.yuchen.tech/demo/encrypt.html</id>
+    <link href="https://blog.yuchen.tech/demo/encrypt.html"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 密码加密的文章</h1>
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 密码加密的文章</h1>
+<p>实际的文章内容。</p>
+<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
+<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
+]]></content>
+    <category term="使用指南"/>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">Markdown 展示</title>
+    <id>https://blog.yuchen.tech/demo/markdown.html</id>
+    <link href="https://blog.yuchen.tech/demo/markdown.html"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>
+<p>你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>
+<p>你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>
+<!-- more -->
+<h2> Markdown 介绍</h2>
+<p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/" target="_blank" rel="noopener noreferrer">Markdown 介绍</a> 和 <a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html" target="_blank" rel="noopener noreferrer">Markdown 演示</a>。</p>
+<h2> Markdown 配置</h2>
+<p>VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。</p>
+<div class="hint-container info">
+<p class="hint-container-title">相关信息</p>
+<p>Frontmatter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter 介绍</a>。</p>
+</div>
+<h2> Markdown 扩展</h2>
+<p>VuePress 会使用 <a href="https://github.com/markdown-it/markdown-it" target="_blank" rel="noopener noreferrer">markdown-it</a> 来解析 Markdown 内容，因此可以借助于 markdown-it 插件来实现 <a href="https://github.com/markdown-it/markdown-it#syntax-extensions" target="_blank" rel="noopener noreferrer">语法扩展</a> 。</p>
+<h3> VuePress 扩展</h3>
+<p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
+<p>关于这些扩展，请阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html" target="_blank" rel="noopener noreferrer">VuePress 中的 Markdown 扩展</a>。</p>
+<h3> 主题扩展</h3>
+<p>通过 <a href="https://plugin-md-enhance.vuejs.press/zh/" target="_blank" rel="noopener noreferrer"><code>vuepress-plugin-md-enhance</code></a>，主题扩展了更多 Markdown 语法，提供更加丰富的写作功能。</p>
+<h4> 自定义容器</h4>
+<div v-pre="">
+<p>安全的在 Markdown 中使用 {{ variable }}。</p>
+</div>
+<div class="hint-container info">
+<p class="hint-container-title">自定义标题</p>
+<p>信息容器，包含 <code>代码</code> 与 <a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%B9%E5%99%A8">链接</a>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></div>
+<div class="hint-container tip">
+<p class="hint-container-title">自定义标题</p>
+<p>提示容器</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">自定义标题</p>
+<p>警告容器</p>
+</div>
+<div class="hint-container danger">
+<p class="hint-container-title">自定义标题</p>
+<p>危险容器</p>
+</div>
+<details class="hint-container details"><summary>自定义标题</summary>
+<p>详情容器</p>
+</details>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/container.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 代码块</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 上下角标</h4>
+<p>19<sup>th</sup> H<sub>2</sub>O</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 自定义对齐</h4>
+<div style="text-align:center">
+<p>我是居中的</p>
+</div>
+<div style="text-align:right">
+<p>我在右对齐</p>
+</div>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/align.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> Attrs</h4>
+<p>一个拥有 ID 的 <strong id="word">单词</strong>。</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 脚注</h4>
+<p>此文字有脚注<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1">.</a></p><a class="footnote-anchor" id="footnote-ref1">
+</a><ul><a class="footnote-anchor" id="footnote-ref1">
+</a><li><a class="footnote-anchor" id="footnote-ref1"></a><a href="https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 标记</h4>
+<p>你可以标记 <mark>重要的内容</mark> 。</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/mark.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 任务列表</h4>
+<ul class="task-list-container">
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 计划 1</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 计划 2</label></p>
+</li>
+<li>
+<p><a href="https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html" target="_blank" rel="noopener noreferrer">查看详情</a></p>
+</li>
+</ul>
+<h3> 图片增强</h3>
+<p>支持为图片设置颜色模式和大小</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/image.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 卡片</h4>
+<div class="language-card line-numbers-mode" data-ext="card"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/card.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 图表</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/chart.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> Echarts</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/echarts.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 流程图</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/flowchart.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> Mermaid</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/mermaid.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> Tex 语法</h4>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><msup><mi mathvariant="normal">∂</mi><mi>r</mi></msup><mrow><mi mathvariant="normal">∂</mi><msup><mi>ω</mi><mi>r</mi></msup></mrow></mfrac><mrow><mo fence="true">(</mo><mfrac><msup><mi>y</mi><mi>ω</mi></msup><mi>ω</mi></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><mrow><mo fence="true">(</mo><mfrac><msup><mi>y</mi><mi>ω</mi></msup><mi>ω</mi></mfrac><mo fence="true">)</mo></mrow><mrow><mo fence="true">{</mo><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>y</mi><msup><mo stretchy="false">)</mo><mi>r</mi></msup><mo>+</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>r</mi></munderover><mfrac><mrow><mo stretchy="false">(</mo><mo>−</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mi>i</mi></msup><mi>r</mi><mo>⋯</mo><mo stretchy="false">(</mo><mi>r</mi><mo>−</mo><mi>i</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>y</mi><msup><mo stretchy="false">)</mo><mrow><mi>r</mi><mo>−</mo><mi>i</mi></mrow></msup></mrow><msup><mi>ω</mi><mi>i</mi></msup></mfrac><mo fence="true">}</mo></mrow></mrow><annotation encoding="application/x-tex">
+\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.5904em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:3.0277em;vertical-align:-1.2777em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2777em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5017em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7507em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span><span class="mbin mtight">−</span><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size4">}</span></span></span></span></span></span></span></p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/tex.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 导入文件</h4>
+<ul>
+<li>
+<p><a href="/demo/markdown.html" target="blank">Markdown 展示</a></p>
+</li>
+<li>
+<p><a href="/demo/page.html" target="blank">页面展示</a></p>
+</li>
+<li>
+<p><a href="/demo/disable.html" target="blank">禁用展示</a></p>
+</li>
+<li>
+<p><a href="/demo/encrypt.html" target="blank">加密展示</a></p>
+</li>
+</ul>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/include.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 代码演示</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/demo.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 样式化</h4>
+<p>向 Mr.Hope 捐赠一杯咖啡。 </p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/stylize.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 交互演示</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/playground.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> Vue 交互演示</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/vue-playground.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<h4> 幻灯片</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/revealjs.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p>这是脚注内容 <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+    <category term="使用指南"/>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">页面配置</title>
+    <id>https://blog.yuchen.tech/demo/page.html</id>
+    <link href="https://blog.yuchen.tech/demo/page.html"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
+<!-- more -->
+<h2> 页面信息</h2>
+<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
+<ul>
+<li>作者设置为 Ms.Hope。</li>
+<li>写作日期为 2020 年 1 月 1 日</li>
+<li>分类为 “使用指南”</li>
+<li>标签为 “页面配置” 和 “使用指南”</li>
+</ul>
+<h2> 页面内容</h2>
+<p>你可以自由在这里书写你的 Markdown。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<ul>
+<li>
+<p>你可以将图片和 Markdown 文件放置在一起，但是你需要使用<strong>相对链接</strong><code>./</code> 进行引用。</p>
+</li>
+<li>
+<p>对于 <code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用。</p>
+</li>
+</ul>
+</div>
+<p>主题包含了一个自定义徽章可以使用:</p>
+<blockquote>
+<p>文字结尾应该有深蓝色的 徽章文字 徽章。 </p>
+</blockquote>
+<h2> 页面结构</h2>
+<p>此页面应当包含:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/breadcrumb.html" target="_blank" rel="noopener noreferrer">路径导航</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/feature/page-info.html" target="_blank" rel="noopener noreferrer">标题和页面信息</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/page.html#%E6%A0%87%E9%A2%98%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">TOC (文章标题列表)</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/meta.html" target="_blank" rel="noopener noreferrer">贡献者、更新时间等页面元信息</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">评论</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">导航栏</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">侧边栏</a></li>
+<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">页脚</a></li>
+<li>返回顶部按钮</li>
+</ul>
+<p>你可以通过主题选项和页面 Frontmatter 自定义它们。</p>
+]]></content>
+    <author>
+      <name>Ms.Hope</name>
+    </author>
+    <category term="使用指南"/>
+    <contributor>
+      <name>Ms.Hope</name>
+    </contributor>
+    <published>2020-01-01T00:00:00.000Z</published>
+    <rights>无版权</rights>
+  </entry>
+  <entry>
+    <title type="text">番茄</title>
+    <id>https://blog.yuchen.tech/posts/tomato.html</id>
+    <link href="https://blog.yuchen.tech/posts/tomato.html"/>
+    <updated>2023-10-24T16:19:23.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 番茄</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 番茄</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></content>
+    <category term="蔬菜"/>
+    <published>2022-01-12T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">snippets</title>
+    <id>https://blog.yuchen.tech/snippets/</id>
+    <link href="https://blog.yuchen.tech/snippets/"/>
+    <updated>2023-10-25T15:31:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> snippets</h1>
+<p>存放一些自用的代码片段，方便复制粘贴</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> snippets</h1>
+<p>存放一些自用的代码片段，方便复制粘贴</p>
+]]></content>
+    <category term="Snippets"/>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">css</title>
+    <id>https://blog.yuchen.tech/snippets/css/</id>
+    <link href="https://blog.yuchen.tech/snippets/css/"/>
+    <updated>2023-10-25T15:31:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> css</h1>
+<p>css代码</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> css</h1>
+<p>css代码</p>
+]]></content>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">js</title>
+    <id>https://blog.yuchen.tech/snippets/js/</id>
+    <link href="https://blog.yuchen.tech/snippets/js/"/>
+    <updated>2023-10-25T15:31:13.000Z</updated>
+    <summary type="html"><![CDATA[<h1> js</h1>
+<p>JavaScript代码</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> js</h1>
+<p>JavaScript代码</p>
+]]></content>
+    <published>2023-10-24T16:19:23.000Z</published>
+  </entry>
+</feed>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.yuchen.tech/en/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.yuchen.tech/en/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Yuchen&amp;apos;s Blog</title>
+    <link>https://blog.yuchen.tech/en/</link>
+    <description>Yuchen&amp;apos;s Blog</description>
+    <language>en-US</language>
+    <pubDate>Thu, 26 Oct 2023 15:19:16 GMT</pubDate>
+    <lastBuildDate>Thu, 26 Oct 2023 15:19:16 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Snippets</category>
+    <category>Guide</category>
+    <category>Vegetable</category>
+    <item>
+      <title>Intro Page</title>
+      <link>https://blog.yuchen.tech/en/about.html</link>
+      <guid>https://blog.yuchen.tech/en/about.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Intro Page</source>
+      <description>Intro Page Place your introduction and profile here.</description>
+      <pubDate>Wed, 25 Oct 2023 15:31:13 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Intro Page</h1>
+<p>Place your introduction and profile here.</p>
+]]></content:encoded>
+      <enclosure url="https://blog.yuchen.tech/assets/images/cover3.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>snippets</title>
+      <link>https://blog.yuchen.tech/en/snippets/</link>
+      <guid>https://blog.yuchen.tech/en/snippets/</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">snippets</source>
+      <description>snippets 存放一些自用的代码片段，方便复制粘贴</description>
+      <category>Snippets</category>
+      <pubDate>Wed, 25 Oct 2023 09:52:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> snippets</h1>
+<p>存放一些自用的代码片段，方便复制粘贴</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>css</title>
+      <link>https://blog.yuchen.tech/en/snippets/css/</link>
+      <guid>https://blog.yuchen.tech/en/snippets/css/</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">css</source>
+      <description>css css代码</description>
+      <pubDate>Wed, 25 Oct 2023 09:52:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> css</h1>
+<p>css代码</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>css代码片段测试</title>
+      <link>https://blog.yuchen.tech/en/snippets/css/test.html</link>
+      <guid>https://blog.yuchen.tech/en/snippets/css/test.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">css代码片段测试</source>
+      <description>css代码片段测试</description>
+      <pubDate>Wed, 25 Oct 2023 09:52:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> css代码片段测试</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>js</title>
+      <link>https://blog.yuchen.tech/en/snippets/js/</link>
+      <guid>https://blog.yuchen.tech/en/snippets/js/</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">js</source>
+      <description>js JavaScript代码</description>
+      <pubDate>Wed, 25 Oct 2023 09:52:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> js</h1>
+<p>JavaScript代码</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>js代码片段测试</title>
+      <link>https://blog.yuchen.tech/en/snippets/js/test.html</link>
+      <guid>https://blog.yuchen.tech/en/snippets/js/test.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">js代码片段测试</source>
+      <description>js代码片段测试</description>
+      <pubDate>Wed, 25 Oct 2023 09:52:14 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> js代码片段测试</h1>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Slide page</title>
+      <link>https://blog.yuchen.tech/en/slides.html</link>
+      <guid>https://blog.yuchen.tech/en/slides.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Slide page</source>
+      <description>slidestart Slide Demo A simple slide demo and useful hints. By Mr.Hope. Please scroll mouse wheel down to the next slide Marking Slides 👇 (#/1/1) -- Marking Slides Use --- to m...</description>
+      <pubDate>Tue, 24 Oct 2023 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[<!-- markdownlint-disable MD024 MD033 MD051 -->
+]]></content:encoded>
+      <enclosure url="https://blog.yuchen.tech/logo.svg" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>Features demo</title>
+      <link>https://blog.yuchen.tech/en/demo/</link>
+      <guid>https://blog.yuchen.tech/en/demo/</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Features demo</source>
+      <description>Catalog Markdown Enhance Page Config Function Disable Encryption Demo</description>
+      <category>Guide</category>
+      <pubDate>Tue, 24 Oct 2023 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h2> Catalog</h2>
+<ul>
+<li>
+<p><a href="/en/demo/markdown.html" target="blank">Markdown Enhance</a></p>
+</li>
+<li>
+<p><a href="/en/demo/page.html" target="blank">Page Config</a></p>
+</li>
+<li>
+<p><a href="/en/demo/disable.html" target="blank">Function Disable</a></p>
+</li>
+<li>
+<p><a href="/en/demo/encrypt.html" target="blank">Encryption Demo</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Disabling layout and features</title>
+      <link>https://blog.yuchen.tech/en/demo/disable.html</link>
+      <guid>https://blog.yuchen.tech/en/demo/disable.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Disabling layout and features</source>
+      <description>You can disable some function and layout on the page by setting the Frontmatter of the page.</description>
+      <category>Guide</category>
+      <pubDate>Tue, 24 Oct 2023 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[<p>You can disable some function and layout on the page by setting the Frontmatter of the page.</p>
+<!-- more -->
+<p>This page is an demo that disables the following features:</p>
+<ul>
+<li>Navbar</li>
+<li>Sidebar</li>
+<li>Breadcrumb</li>
+<li>Page information</li>
+<li>Contributors</li>
+<li>Edit link</li>
+<li>Update time</li>
+<li>Prev/Next link</li>
+<li>Comment</li>
+<li>Footer</li>
+<li>Back to top button</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Encryption Article</title>
+      <link>https://blog.yuchen.tech/en/demo/encrypt.html</link>
+      <guid>https://blog.yuchen.tech/en/demo/encrypt.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Encryption Article</source>
+      <description>The actual article content. Paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 t...</description>
+      <category>Guide</category>
+      <pubDate>Tue, 24 Oct 2023 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Encryption Article</h1>
+<p>The actual article content.</p>
+<p>Paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text paragraph 1 text.</p>
+<p>Paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text paragraph 2 text.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Markdown Enhance</title>
+      <link>https://blog.yuchen.tech/en/demo/markdown.html</link>
+      <guid>https://blog.yuchen.tech/en/demo/markdown.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Markdown Enhance</source>
+      <description>VuePress basically generate pages from Markdown files. So you can use it to generate documentation or blog sites easily. You should create and write Markdown files, so that VuePress can convert them to different pages according to file structure.</description>
+      <category>Guide</category>
+      <pubDate>Tue, 24 Oct 2023 16:19:23 GMT</pubDate>
+      <content:encoded><![CDATA[<p>VuePress basically generate pages from Markdown files. So you can use it to generate documentation or blog sites easily.</p>
+<p>You should create and write Markdown files, so that VuePress can convert them to different pages according to file structure.</p>
+<!-- more -->
+<h2> Markdown Introduction</h2>
+<p>If you are a new learner and don't know how to write Markdown, please read <a href="https://theme-hope.vuejs.press/cookbook/markdown/" target="_blank" rel="noopener noreferrer">Markdown Intro</a> and <a href="https://theme-hope.vuejs.press/cookbook/markdown/demo.html" target="_blank" rel="noopener noreferrer">Markdown Demo</a>.</p>
+<h2> Markdown Config</h2>
+<p>VuePress introduce configuration for each markdown page using Frontmatter.</p>
+<div class="hint-container info">
+<p class="hint-container-title">Info</p>
+<p>Frontmatter is a important concept in VuePress. If you don't know it, you need to read <a href="https://theme-hope.vuejs.press/cookbook/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter Introduction</a>.</p>
+</div>
+<h2> Markdown Extension</h2>
+<p>The Markdown content in VuePress will be parsed by <a href="https://github.com/markdown-it/markdown-it" target="_blank" rel="noopener noreferrer">markdown-it</a>, which supports <a href="https://github.com/markdown-it/markdown-it#syntax-extensions" target="_blank" rel="noopener noreferrer">syntax extensions</a> via markdown-it plugins.</p>
+<h3> VuePress Enhancement</h3>
+<p>To enrich document writing, VuePress has extended Markdown syntax.</p>
+<p>For these extensions, please read <a href="https://theme-hope.vuejs.press/basic/vuepress/markdown.html" target="_blank" rel="noopener noreferrer">Markdown extensions in VuePress</a>.</p>
+<h3> Theme Enhancement</h3>
+<p>By using <a href="https://md-enhance.vuejs.press/" target="_blank" rel="noopener noreferrer"><code>vuepress-plugin-md-enhance</code></a>, the theme extends more Markdown syntax and provides richer writing functions.</p>
+<h4> Custom Container</h4>
+<div v-pre="">
+<p>Safely use {{ variable }} in Markdown.</p>
+</div>
+<div class="hint-container info">
+<p class="hint-container-title">Custom Title</p>
+<p>A custom information container with <code>code</code>, <a href="#custom-container">link</a>.</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></div>
+<div class="hint-container tip">
+<p class="hint-container-title">Custom Title</p>
+<p>A custom tip container</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">Custom Title</p>
+<p>A custom warning container</p>
+</div>
+<div class="hint-container danger">
+<p class="hint-container-title">Custom Title</p>
+<p>A custom danger container</p>
+</div>
+<details class="hint-container details"><summary>Custom Title</summary>
+<p>A custom details container</p>
+</details>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/container.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Tabs</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/tabs.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Code Tabs</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/code-tabs.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Superscript and Subscript</h4>
+<p>19<sup>th</sup> H<sub>2</sub>O</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/sup-sub.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Align</h4>
+<div style="text-align:center">
+<p>I am center</p>
+</div>
+<div style="text-align:right">
+<p>I am right align</p>
+</div>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/align.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Attrs</h4>
+<p>A <strong id="word">word</strong> having id.</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/attrs.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Footnote</h4>
+<p>This text has footnote<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1">.</a></p><a class="footnote-anchor" id="footnote-ref1">
+</a><ul><a class="footnote-anchor" id="footnote-ref1">
+</a><li><a class="footnote-anchor" id="footnote-ref1"></a><a href="https://theme-hope.vuejs.press/guide/markdown/footnote.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Mark</h4>
+<p>You can mark <mark>important words</mark> .</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/mark.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Tasklist</h4>
+<ul class="task-list-container">
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> Plan A</label></p>
+</li>
+<li class="task-list-item">
+<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> Plan B</label></p>
+</li>
+<li>
+<p><a href="https://theme-hope.vuejs.press/guide/markdown/tasklist.html" target="_blank" rel="noopener noreferrer">View Detail</a></p>
+</li>
+</ul>
+<h4> Image Enhancement</h4>
+<p>Support setting color scheme and size</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/image.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Card</h4>
+<div class="language-card line-numbers-mode" data-ext="card"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/card.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Chart</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/chart.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Echarts</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/echarts.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Flowchart</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/flowchart.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Mermaid</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/mermaid.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Tex</h4>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><mfrac><msup><mi mathvariant="normal">∂</mi><mi>r</mi></msup><mrow><mi mathvariant="normal">∂</mi><msup><mi>ω</mi><mi>r</mi></msup></mrow></mfrac><mrow><mo fence="true">(</mo><mfrac><msup><mi>y</mi><mi>ω</mi></msup><mi>ω</mi></mfrac><mo fence="true">)</mo></mrow><mo>=</mo><mrow><mo fence="true">(</mo><mfrac><msup><mi>y</mi><mi>ω</mi></msup><mi>ω</mi></mfrac><mo fence="true">)</mo></mrow><mrow><mo fence="true">{</mo><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>y</mi><msup><mo stretchy="false">)</mo><mi>r</mi></msup><mo>+</mo><munderover><mo>∑</mo><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>r</mi></munderover><mfrac><mrow><mo stretchy="false">(</mo><mo>−</mo><mn>1</mn><msup><mo stretchy="false">)</mo><mi>i</mi></msup><mi>r</mi><mo>⋯</mo><mo stretchy="false">(</mo><mi>r</mi><mo>−</mo><mi>i</mi><mo>+</mo><mn>1</mn><mo stretchy="false">)</mo><mo stretchy="false">(</mo><mi>log</mi><mo>⁡</mo><mi>y</mi><msup><mo stretchy="false">)</mo><mrow><mi>r</mi><mo>−</mo><mi>i</mi></mrow></msup></mrow><msup><mi>ω</mi><mi>i</mi></msup></mfrac><mo fence="true">}</mo></mrow></mrow><annotation encoding="application/x-tex">
+\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:2.4em;vertical-align:-0.95em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3714em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.5904em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord" style="margin-right:0.05556em;">∂</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:3.0277em;vertical-align:-1.2777em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size3">(</span></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.3414em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.03588em;">ω</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size3">)</span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7144em;"><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mop op-limits"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.6514em;"><span style="top:-1.8723em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.05em;"><span class="pstrut" style="height:3.05em;"></span><span><span class="mop op-symbol large-op">∑</span></span></span><span style="top:-4.3em;margin-left:0em;"><span class="pstrut" style="height:3.05em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.2777em;"><span></span></span></span></span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mopen nulldelimiter"></span><span class="mfrac"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.5017em;"><span style="top:-2.314em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mord"><span class="mord mathnormal" style="margin-right:0.03588em;">ω</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.7507em;"><span style="top:-2.989em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span></span></span><span style="top:-3.23em;"><span class="pstrut" style="height:3em;"></span><span class="frac-line" style="border-bottom-width:0.04em;"></span></span><span style="top:-3.677em;"><span class="pstrut" style="height:3em;"></span><span class="mord"><span class="mopen">(</span><span class="mord">−</span><span class="mord">1</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="minner">⋯</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mopen">(</span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord mathnormal">i</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mord">1</span><span class="mclose">)</span><span class="mopen">(</span><span class="mop">lo<span style="margin-right:0.01389em;">g</span></span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal" style="margin-right:0.03588em;">y</span><span class="mclose"><span class="mclose">)</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8247em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.02778em;">r</span><span class="mbin mtight">−</span><span class="mord mathnormal mtight">i</span></span></span></span></span></span></span></span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.686em;"><span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span><span class="mclose delimcenter" style="top:0em;"><span class="delimsizing size4">}</span></span></span></span></span></span></span></p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/tex.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Include files</h4>
+<ul>
+<li>
+<p><a href="/en/demo/markdown.html" target="blank">Markdown Enhance</a></p>
+</li>
+<li>
+<p><a href="/en/demo/page.html" target="blank">Page Config</a></p>
+</li>
+<li>
+<p><a href="/en/demo/disable.html" target="blank">Function Disable</a></p>
+</li>
+<li>
+<p><a href="/en/demo/encrypt.html" target="blank">Encryption Demo</a></p>
+</li>
+</ul>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/include.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Code Demo</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/demo.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Stylize</h4>
+<p>Donate Mr.Hope a cup of coffee. </p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/stylize.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Playground</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/playground.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Vue Playground</h4>
+
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/vue-playground.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<h4> Presentation</h4>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/markdown/revealjs.html" target="_blank" rel="noopener noreferrer">View Detail</a></li>
+</ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="footnote1" class="footnote-item"><p>This is footnote content <a href="#footnote-ref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Page Config</title>
+      <link>https://blog.yuchen.tech/en/demo/page.html</link>
+      <guid>https://blog.yuchen.tech/en/demo/page.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Page Config</source>
+      <description>Content before more comment is regarded as page excerpt.</description>
+      <category>Guide</category>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Content before <code>more</code> comment is regarded as page excerpt.</p>
+<!-- more -->
+<h2> Page Information</h2>
+<p>You can set page information in Markdown's Frontmatter.</p>
+<ul>
+<li>The author is Ms.Hope.</li>
+<li>The writing date is January 1, 2020</li>
+<li>Category is "Guide"</li>
+<li>Tags are "Page Config" and "Guide"</li>
+</ul>
+<h2> Page Content</h2>
+<p>You are free to write your Markdown here.</p>
+<div class="hint-container tip">
+<p class="hint-container-title">Assets</p>
+<ul>
+<li>
+<p>You can place images besides your Markdown files, but you should use <strong>relative links</strong> (i.e.: starting with <code>./</code>) for them.</p>
+</li>
+<li>
+<p>For images in <code>.vuepress/public</code> directory, please use absolute links (i.e.: starting with <code>/</code>) for them.</p>
+</li>
+</ul>
+</div>
+<p>The theme contains a custom badge:</p>
+<blockquote>
+<p>A dark blue badge text badge at the end of line. </p>
+</blockquote>
+<h2> Page Structure</h2>
+<p>This page should contain:</p>
+<ul>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/breadcrumb.html" target="_blank" rel="noopener noreferrer">BreadCrumb</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/page-info.html" target="_blank" rel="noopener noreferrer">Title and information</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/page.html#header-list" target="_blank" rel="noopener noreferrer">TOC (Table of Contents)</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/meta.html" target="_blank" rel="noopener noreferrer">Meta information including update time and contributors</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">Comments</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">Navbar</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">Sidebar</a></li>
+<li><a href="https://theme-hope.vuejs.press/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">Footer</a></li>
+<li>Back to top button</li>
+</ul>
+<p>You can customize them in theme options and page frontmatter.</p>
+]]></content:encoded>
+      <enclosure url="https://blog.yuchen.tech/assets/images/cover1.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Tomato</title>
+      <link>https://blog.yuchen.tech/en/posts/tomato.html</link>
+      <guid>https://blog.yuchen.tech/en/posts/tomato.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Tomato</source>
+      <description>Tomato Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <category>Vegetable</category>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Tomato</h1>
+<h2> Heading 2</h2>
+<p>Here is the content.</p>
+<h3> Heading 3</h3>
+<p>Here is the content.</p>
+]]></content:encoded>
+      <enclosure url="https://blog.yuchen.tech/assets/images/cover2.jpg" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
