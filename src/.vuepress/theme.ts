@@ -80,7 +80,9 @@ export default hopeTheme(
         // sidebar
         sidebar: enSidebar,
 
-        footer: "",
+        footer:
+        '<div class="framework">Framework <a target="_blank" href="https://github.com/vuepress/vuepress-next">VuePress</a><span style="padding: 0 6px;">|</span>Theme <a target="_blank" href="https://github.com/vuepress-theme-hope/vuepress-theme-hope">Hope</a></div>',
+      
 
         displayFooter: true,
 
@@ -105,7 +107,7 @@ export default hopeTheme(
         sidebar: zhSidebar,
 
         footer:
-          '<div><a target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=50023702000230" style="line-height:20px;margin-right: 5px;"><img src="https://beian.mps.gov.cn/web/assets/logo01.6189a29f.png" style="width: 20px;height: 20px;vertical-align: bottom;"><span style="/* float:left; */height:20px;line-height:20px;/* margin: 0px 0px 0px 5px; */">渝公网安备 50023702000230号</span></a>|<a href="https://beian.miit.gov.cn/" target="_blank" style="margin-left: 5px;">渝ICP备2020012887号-2</a></div>',
+          '<div class="framework">Framework <a target="_blank" href="https://github.com/vuepress/vuepress-next">VuePress</a><span style="padding: 0 6px;">|</span>Theme <a target="_blank" href="https://github.com/vuepress-theme-hope/vuepress-theme-hope">Hope</a></div><div class="beian"><a target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=50023702000230" style="line-height:20px;"><span style="height:20px;line-height:20px;">渝公网安备 50023702000230号</span></a><span style="padding: 0 6px;">|</span><a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2020012887号-2</a></div>',
         
         displayFooter: true,
 
@@ -131,11 +133,13 @@ export default hopeTheme(
     plugins: {
       blog: true,
 
-      comment: {
-        // You should generate and use your own comment service
-        provider: "Waline",
-        serverURL: "https://waline-comment.vuejs.press",
-      },
+      // comment: {
+      //   // You should generate and use your own comment service
+      //   provider: "Waline",
+      //   serverURL: "https://waline-comment.vuejs.press",
+      // },
+
+      comment: false,
 
       // all features are enabled for demo, only preserve features you need here
       mdEnhance: {

@@ -1,1 +1,31 @@
 // place your custom styles here
+@use "config";
+
+.vp-footer-wrapper {
+  flex-direction: column;
+  justify-content: center;
+
+  .framework {
+    margin-bottom: 6px;
+    margin-left: -5px;
+    @media (max-width: 459px) {
+      margin-left: 0;
+    }
+  }
+
+  .beian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 459px) {
+      flex-direction: column;
+      a {
+        padding: 6px 0;
+      }
+      a ~ span {
+        display: none;
+      }
+    }
+  }
+}
