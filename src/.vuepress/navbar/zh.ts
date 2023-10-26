@@ -34,5 +34,4 @@ export const zhNavbar = navbar([
     icon: "fa-solid fa-box-archive",
     link: "/timeline",
   },
-  "/demo/",
 ]);

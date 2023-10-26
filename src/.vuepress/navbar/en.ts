@@ -34,5 +34,4 @@ export const enNavbar = navbar([
     icon: "fa-solid fa-box-archive",
     link: "/en/timeline",
   },
-  "/en/demo/",
 ]);
