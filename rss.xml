@@ -6,30 +6,26 @@
     <link>https://blog.yuchen.tech/</link>
     <description>雨辰的博客</description>
     <language>zh-CN</language>
-    <pubDate>Thu, 26 Oct 2023 16:06:43 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2023 16:06:43 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Oct 2023 09:44:14 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Oct 2023 09:44:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>使用指南</category>
-    <category>蔬菜</category>
     <category>Snippets</category>
     <item>
-      <title>关于</title>
-      <link>https://blog.yuchen.tech/about.html</link>
-      <guid>https://blog.yuchen.tech/about.html</guid>
-      <source url="https://blog.yuchen.tech/rss.xml">关于</source>
-      <description>关于 关于本站 本站基于VuePress搭建，主题为Hope 国内托管在Coding上，国外托管在Github上 域名由阿里云提供，并提供解析服务 本站所有的图片均来自wallhaven，侵删</description>
-      <pubDate>Wed, 25 Oct 2023 15:31:13 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 关于</h1>
-<h2> 关于本站</h2>
-<ul>
-<li>本站基于<a href="https://github.com/vuepress/vuepress-next" target="_blank" rel="noopener noreferrer">VuePress</a>搭建，主题为<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">Hope</a></li>
-<li>国内托管在Coding上，国外托管在Github上</li>
-<li>域名由阿里云提供，并提供解析服务</li>
-<li>本站所有的图片均来自wallhaven，侵删</li>
-</ul>
+      <title>文章测试</title>
+      <link>https://blog.yuchen.tech/posts/article.html</link>
+      <guid>https://blog.yuchen.tech/posts/article.html</guid>
+      <source url="https://blog.yuchen.tech/rss.xml">文章测试</source>
+      <description>文章测试 标题 2 这里是内容。 标题 3 这里是内容。</description>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 文章测试</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
 ]]></content:encoded>
-      <enclosure url="https://blog.yuchen.tech/assets/images/cover3.jpg" type="image/jpeg"/>
+      <enclosure url="https://blog.yuchen.tech/assets/images/cover2.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>css代码片段测试</title>
@@ -361,22 +357,6 @@
 <p>你可以通过主题选项和页面 Frontmatter 自定义它们。</p>
 ]]></content:encoded>
       <enclosure url="https://blog.yuchen.tech/assets/images/cover1.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>番茄</title>
-      <link>https://blog.yuchen.tech/posts/tomato.html</link>
-      <guid>https://blog.yuchen.tech/posts/tomato.html</guid>
-      <source url="https://blog.yuchen.tech/rss.xml">番茄</source>
-      <description>番茄 标题 2 这里是内容。 标题 3 这里是内容。</description>
-      <category>蔬菜</category>
-      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> 番茄</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content:encoded>
-      <enclosure url="https://blog.yuchen.tech/assets/images/cover2.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>snippets</title>

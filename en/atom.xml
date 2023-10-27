@@ -4,28 +4,33 @@
   <title>Yuchen&amp;apos;s Blog</title>
   <subtitle>Yuchen&amp;apos;s Blog</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2023-10-26T16:06:43.558Z</updated>
+  <updated>2023-10-27T09:44:14.789Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/en/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/en/"/>
   <category term="Snippets"/>
   <category term="Guide"/>
-  <category term="Vegetable"/>
   <contributor>
     <name>Ms.Hope</name>
   </contributor>
   <entry>
-    <title type="text">about</title>
-    <id>https://blog.yuchen.tech/en/about.html</id>
-    <link href="https://blog.yuchen.tech/en/about.html"/>
-    <updated>2023-10-26T16:04:50.000Z</updated>
-    <summary type="html"><![CDATA[<h1> about</h1>
-<p>Place your introduction and profile here.</p>
+    <title type="text">Article Test</title>
+    <id>https://blog.yuchen.tech/en/posts/article.html</id>
+    <link href="https://blog.yuchen.tech/en/posts/article.html"/>
+    <updated>2023-10-27T09:42:05.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Article Test</h1>
+<h2> Heading 2</h2>
+<p>Here is the content.</p>
+<h3> Heading 3</h3>
+<p>Here is the content.</p>
 ]]></summary>
-    <content type="html"><![CDATA[<h1> about</h1>
-<p>Place your introduction and profile here.</p>
+    <content type="html"><![CDATA[<h1> Article Test</h1>
+<h2> Heading 2</h2>
+<p>Here is the content.</p>
+<h3> Heading 3</h3>
+<p>Here is the content.</p>
 ]]></content>
-    <published>2023-10-25T15:31:13.000Z</published>
+    <published>2022-01-12T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">snippets</title>
@@ -431,25 +436,5 @@
     </contributor>
     <published>2020-01-01T00:00:00.000Z</published>
     <rights>No Copyright</rights>
-  </entry>
-  <entry>
-    <title type="text">Tomato</title>
-    <id>https://blog.yuchen.tech/en/posts/tomato.html</id>
-    <link href="https://blog.yuchen.tech/en/posts/tomato.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Tomato</h1>
-<h2> Heading 2</h2>
-<p>Here is the content.</p>
-<h3> Heading 3</h3>
-<p>Here is the content.</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> Tomato</h1>
-<h2> Heading 2</h2>
-<p>Here is the content.</p>
-<h3> Heading 3</h3>
-<p>Here is the content.</p>
-]]></content>
-    <category term="Vegetable"/>
-    <published>2022-01-12T00:00:00.000Z</published>
   </entry>
 </feed>

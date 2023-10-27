@@ -4,39 +4,33 @@
   <title>雨辰的博客</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2023-10-26T16:06:43.558Z</updated>
+  <updated>2023-10-27T09:44:14.789Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
   <category term="使用指南"/>
-  <category term="蔬菜"/>
   <category term="Snippets"/>
   <contributor>
     <name>Ms.Hope</name>
   </contributor>
   <entry>
-    <title type="text">关于</title>
-    <id>https://blog.yuchen.tech/about.html</id>
-    <link href="https://blog.yuchen.tech/about.html"/>
-    <updated>2023-10-26T16:04:50.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 关于</h1>
-<h2> 关于本站</h2>
-<ul>
-<li>本站基于<a href="https://github.com/vuepress/vuepress-next" target="_blank" rel="noopener noreferrer">VuePress</a>搭建，主题为<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">Hope</a></li>
-<li>国内托管在Coding上，国外托管在Github上</li>
-<li>域名由阿里云提供，并提供解析服务</li>
-<li>本站所有的图片均来自wallhaven，侵删</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h1> 关于</h1>
-<h2> 关于本站</h2>
-<ul>
-<li>本站基于<a href="https://github.com/vuepress/vuepress-next" target="_blank" rel="noopener noreferrer">VuePress</a>搭建，主题为<a href="https://github.com/vuepress-theme-hope/vuepress-theme-hope" target="_blank" rel="noopener noreferrer">Hope</a></li>
-<li>国内托管在Coding上，国外托管在Github上</li>
-<li>域名由阿里云提供，并提供解析服务</li>
-<li>本站所有的图片均来自wallhaven，侵删</li>
-</ul>
+    <title type="text">文章测试</title>
+    <id>https://blog.yuchen.tech/posts/article.html</id>
+    <link href="https://blog.yuchen.tech/posts/article.html"/>
+    <updated>2023-10-27T09:42:05.000Z</updated>
+    <summary type="html"><![CDATA[<h1> 文章测试</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
+]]></summary>
+    <content type="html"><![CDATA[<h1> 文章测试</h1>
+<h2> 标题 2</h2>
+<p>这里是内容。</p>
+<h3> 标题 3</h3>
+<p>这里是内容。</p>
 ]]></content>
-    <published>2023-10-25T15:31:13.000Z</published>
+    <published>2022-01-12T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">css代码片段测试</title>
@@ -398,26 +392,6 @@
     </contributor>
     <published>2020-01-01T00:00:00.000Z</published>
     <rights>无版权</rights>
-  </entry>
-  <entry>
-    <title type="text">番茄</title>
-    <id>https://blog.yuchen.tech/posts/tomato.html</id>
-    <link href="https://blog.yuchen.tech/posts/tomato.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 番茄</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> 番茄</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content>
-    <category term="蔬菜"/>
-    <published>2022-01-12T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">snippets</title>

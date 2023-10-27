@@ -6,24 +6,26 @@
     <link>https://blog.yuchen.tech/en/</link>
     <description>Yuchen&amp;apos;s Blog</description>
     <language>en-US</language>
-    <pubDate>Thu, 26 Oct 2023 16:06:43 GMT</pubDate>
-    <lastBuildDate>Thu, 26 Oct 2023 16:06:43 GMT</lastBuildDate>
+    <pubDate>Fri, 27 Oct 2023 09:44:14 GMT</pubDate>
+    <lastBuildDate>Fri, 27 Oct 2023 09:44:14 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Snippets</category>
     <category>Guide</category>
-    <category>Vegetable</category>
     <item>
-      <title>about</title>
-      <link>https://blog.yuchen.tech/en/about.html</link>
-      <guid>https://blog.yuchen.tech/en/about.html</guid>
-      <source url="https://blog.yuchen.tech/en/rss.xml">about</source>
-      <description>about Place your introduction and profile here.</description>
-      <pubDate>Wed, 25 Oct 2023 15:31:13 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> about</h1>
-<p>Place your introduction and profile here.</p>
+      <title>Article Test</title>
+      <link>https://blog.yuchen.tech/en/posts/article.html</link>
+      <guid>https://blog.yuchen.tech/en/posts/article.html</guid>
+      <source url="https://blog.yuchen.tech/en/rss.xml">Article Test</source>
+      <description>Article Test Heading 2 Here is the content. Heading 3 Here is the content.</description>
+      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Article Test</h1>
+<h2> Heading 2</h2>
+<p>Here is the content.</p>
+<h3> Heading 3</h3>
+<p>Here is the content.</p>
 ]]></content:encoded>
-      <enclosure url="https://blog.yuchen.tech/assets/images/cover3.jpg" type="image/jpeg"/>
+      <enclosure url="https://blog.yuchen.tech/assets/images/cover2.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>snippets</title>
@@ -394,22 +396,6 @@
 <p>You can customize them in theme options and page frontmatter.</p>
 ]]></content:encoded>
       <enclosure url="https://blog.yuchen.tech/assets/images/cover1.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>Tomato</title>
-      <link>https://blog.yuchen.tech/en/posts/tomato.html</link>
-      <guid>https://blog.yuchen.tech/en/posts/tomato.html</guid>
-      <source url="https://blog.yuchen.tech/en/rss.xml">Tomato</source>
-      <description>Tomato Heading 2 Here is the content. Heading 3 Here is the content.</description>
-      <category>Vegetable</category>
-      <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1> Tomato</h1>
-<h2> Heading 2</h2>
-<p>Here is the content.</p>
-<h3> Heading 3</h3>
-<p>Here is the content.</p>
-]]></content:encoded>
-      <enclosure url="https://blog.yuchen.tech/assets/images/cover2.jpg" type="image/jpeg"/>
     </item>
   </channel>
 </rss>
