@@ -1,17 +1,12 @@
 ---
 cover: /assets/images/cover2.jpg
-icon: pen-to-square
+icon: book
 date: 2022-01-12
-category:
-  - Vegetable
-tag:
-  - red
-  - round
 star: true
 sticky: true
 ---
 
-# Tomato
+# Article Test
 
 ## Heading 2
 

@@ -1,17 +1,12 @@
 ---
 cover: /assets/images/cover2.jpg
-icon: pen-to-square
+icon: book
 date: 2022-01-12
-category:
-  - 蔬菜
-tag:
-  - 红
-  - 圆
 star: true
 sticky: true
 ---
 
-# 番茄
+# 文章测试
 
 ## 标题 2
 

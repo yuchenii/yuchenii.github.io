@@ -20,7 +20,7 @@ export default hopeTheme(
 
     iconAssets: "fontawesome-with-brands",
 
-    logo: "https://blog.yuchen.tech/img/avatar.webp",
+    logo: "/logo.webp",
 
     repo: "yuchenii/yuchenii.github.io",
 
@@ -140,6 +140,8 @@ export default hopeTheme(
       // },
 
       comment: false,
+
+      autoCatalog: true,
 
       // all features are enabled for demo, only preserve features you need here
       mdEnhance: {
