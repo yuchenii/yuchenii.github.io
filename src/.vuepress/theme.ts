@@ -143,6 +143,11 @@ export default hopeTheme(
 
       autoCatalog: true,
 
+      prismjs: {
+        dark: 'dracula',
+        light: 'one-light'
+      },
+
       // all features are enabled for demo, only preserve features you need here
       mdEnhance: {
         align: true,

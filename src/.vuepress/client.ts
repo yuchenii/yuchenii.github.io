@@ -25,7 +25,7 @@ export default defineClientConfig({
     });
     // 运行时间
     setupRunningTimeFooter(
-      new Date("2022-01-01"),
+      new Date("2021-03-09"),
       {
         "/en/":
           "Running time: :day days :hour hours :minute minutes :second seconds",
