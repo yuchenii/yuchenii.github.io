@@ -1,6 +1,22 @@
 // place your custom styles here
 @use "config";
 
+// 必应壁纸
+.bing-switch {
+  @media (max-width: 900px) {
+    pointer-events: none;
+    .bing-location,
+    .bing-info {
+      visibility: hidden;
+    }
+    .bing-switch-prev,
+    .bing-switch-next {
+      pointer-events: auto;
+    }
+  }
+}
+
+// 页脚
 .vp-footer-wrapper {
   flex-direction: column;
   justify-content: center;
@@ -23,6 +39,7 @@
       a {
         padding: 6px 0;
       }
+      // 隐藏竖线
       a ~ span {
         display: none;
       }
