@@ -470,6 +470,11 @@ const colNum = ref(5);
   - colNum在css和js中都有，在使用的时候需要注意保持一致
   - scss变量无法使用媒体查询，如果想要响应式布局，还需要js重写代码
 
+## 参考文章
+
+- [CSS 如何使用flex实现灵活的“蛇形布局”](https://www.devbbq.cn/blog/details/1692001109139)
+- [纯CSS实现蛇形流程图/步骤条](https://juejin.cn/post/7234061982579572793)
+
 ## 源码
 
 ```vue
