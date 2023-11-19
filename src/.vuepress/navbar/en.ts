@@ -17,6 +17,11 @@ export const enNavbar = navbar([
         icon: "fa-brands fa-square-js",
         link: "/js",
       },
+      {
+        text: "Vue",
+        icon: "fa-brands fa-vuejs",
+        link: "/vue",
+      }
     ],
   },
   {
