@@ -6,14 +6,39 @@
     <link>https://blog.yuchen.tech/</link>
     <description>雨辰的博客</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 19 Nov 2023 15:51:32 GMT</pubDate>
-    <lastBuildDate>Sun, 19 Nov 2023 15:51:32 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Dec 2023 10:18:11 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Dec 2023 10:18:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>JS</category>
     <category>Vue</category>
     <category>Git</category>
     <category>使用指南</category>
     <category>Snippets</category>
+    <item>
+      <title>取消 Promise</title>
+      <link>https://blog.yuchen.tech/snippets/js/abort-promise.html</link>
+      <guid>https://blog.yuchen.tech/snippets/js/abort-promise.html</guid>
+      <source url="https://blog.yuchen.tech/rss.xml">取消 Promise</source>
+      <description>取消 Promise fetch 和 axios 都支持使用AbortController的方式来取消请求。以 fetch 为例，想要取消请求，分为三步： const url = &amp;quot;https://blog.yuchen.tech/&amp;quot;; // 1. 创建AbortController const controller = new AbortController(); const signal = controller.signal; // 2. 发送请求时传入AbortController的signal fetch(url, { signal }) .then((response) =&amp;gt; { console.log(response); }) .catch((error) =&amp;gt; { console.log(error); }); // 3. 使用AbortController的abort方法来取消请求 controller.abort(); // Node 下输出 // DOMException [AbortError]: This operation was aborted // 浏览器下输出 // DOMException: The user aborted a request.</description>
+      <category>JS</category>
+      <pubDate>Sun, 03 Dec 2023 10:16:54 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> 取消 Promise</h1>
+<p>fetch 和 axios 都支持使用<a href="https://developer.mozilla.org/en-US/docs/Web/API/AbortController" target="_blank" rel="noopener noreferrer">AbortController</a>的方式来取消请求。以 fetch 为例，想要取消请求，分为三步：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>原生的 promise 只有 pending、fulfilled 和 rejected 三种状态，是不支持取消的，要想像 fetch 和 axios 一样取消 promise, 需要在使用时对其做一些封装。主要的方法有以下 3 种：</p>
+<h2> 借助 reject 方法</h2>
+<p>一个简单的例子</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可以看到调用 abort 方法后 promise 被终止了，为了更加通用，需要给 abortPromise 传入一个回掉函数。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这样就实现了一个最简单的取消 promise 的功能。</p>
+<h2> 借助 race 方法</h2>
+<p>Promise.race()的状态与最先 resolve/reject 的那个 promise 的状态相同。我们可以用它来实现一个取消 promise 的功能。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 借助 AbortController</h2>
+<p>除了上面两种方法，还可以和 fetch 和 axios 一样使用 AbortController 来取消 promise。</p>
+<p>根据 MDN 上<a href="https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal#implementing_an_abortable_api" target="_blank" rel="noopener noreferrer">AbortSignal</a>的例子，有以下代码：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>还可以在括号里传入 reason</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>vue</title>
       <link>https://blog.yuchen.tech/snippets/vue/</link>

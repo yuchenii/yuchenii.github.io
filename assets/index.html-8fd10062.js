@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as s,a as e,b as c}from"./app-48965665.js";const n={},o=e("h1",{id:"js",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#js","aria-hidden":"true"},"#"),c(" js")],-1),r=e("p",null,"JavaScript代码",-1),_=[o,r];function d(i,l){return a(),s("div",null,_)}const f=t(n,[["render",d],["__file","index.html.vue"]]);export{f as default};
