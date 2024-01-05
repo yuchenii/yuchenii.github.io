@@ -4,23 +4,19 @@
   <title>雨辰的博客</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2023-12-03T10:18:11.847Z</updated>
+  <updated>2024-01-05T13:46:44.919Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
   <category term="JS"/>
   <category term="Vue"/>
   <category term="Git"/>
-  <category term="使用指南"/>
   <category term="Snippets"/>
-  <contributor>
-    <name>Ms.Hope</name>
-  </contributor>
   <entry>
     <title type="text">取消 Promise</title>
     <id>https://blog.yuchen.tech/snippets/js/abort-promise.html</id>
     <link href="https://blog.yuchen.tech/snippets/js/abort-promise.html"/>
-    <updated>2023-12-03T10:16:54.000Z</updated>
+    <updated>2024-01-05T13:45:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> 取消 Promise</h1>
 <p>fetch 和 axios 都支持使用<a href="https://developer.mozilla.org/en-US/docs/Web/API/AbortController" target="_blank" rel="noopener noreferrer">AbortController</a>的方式来取消请求。以 fetch 为例，想要取消请求，分为三步：</p>
 <div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> url <span class="token operator">=</span> <span class="token string">"https://blog.yuchen.tech/"</span><span class="token punctuation">;</span>
@@ -64,23 +60,10 @@ controller<span class="token punctuation">.</span><span class="token function">a
     <published>2023-12-03T10:16:54.000Z</published>
   </entry>
   <entry>
-    <title type="text">vue</title>
-    <id>https://blog.yuchen.tech/snippets/vue/</id>
-    <link href="https://blog.yuchen.tech/snippets/vue/"/>
-    <updated>2023-11-19T15:50:07.000Z</updated>
-    <summary type="html"><![CDATA[<h1> vue</h1>
-<p>Vue代码</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> vue</h1>
-<p>Vue代码</p>
-]]></content>
-    <published>2023-11-19T11:33:21.000Z</published>
-  </entry>
-  <entry>
     <title type="text">蛇形布局</title>
     <id>https://blog.yuchen.tech/snippets/vue/snake-layout.html</id>
     <link href="https://blog.yuchen.tech/snippets/vue/snake-layout.html"/>
-    <updated>2023-11-19T12:24:05.000Z</updated>
+    <updated>2024-01-05T13:45:17.000Z</updated>
     <summary type="html"><![CDATA[<h1> 蛇形布局</h1>
 <p>实现的效果如下图所示</p>
 <figure><figcaption></figcaption></figure>
@@ -283,21 +266,21 @@ $<span class="token property">colDistance</span><span class="token punctuation">
 <h2> 源码</h2>
 <div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
     <category term="Vue"/>
-    <published>2023-11-19T11:33:21.000Z</published>
+    <published>2023-11-19T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">Git 操作指南</title>
+    <title type="text">Git 指南</title>
     <id>https://blog.yuchen.tech/posts/git.html</id>
     <link href="https://blog.yuchen.tech/posts/git.html"/>
-    <updated>2023-10-31T09:51:58.000Z</updated>
-    <summary type="html"><![CDATA[<h1> Git 操作指南</h1>
+    <updated>2024-01-05T13:45:17.000Z</updated>
+    <summary type="html"><![CDATA[<h1> Git 指南</h1>
 <blockquote>
 <p><a href="http://git-scm.com/docs" target="_blank" rel="noopener noreferrer">官方文档</a></p>
 </blockquote>
 <h2> 安装</h2>
 <p><a href="https://git-scm.com/download/win" target="_blank" rel="noopener noreferrer">windows 版本</a></p>
 <p><a href="https://git-scm.com/download/linux" target="_blank" rel="noopener noreferrer">Linux/Unix 版本</a></p>]]></summary>
-    <content type="html"><![CDATA[<h1> Git 操作指南</h1>
+    <content type="html"><![CDATA[<h1> Git 指南</h1>
 <blockquote>
 <p><a href="http://git-scm.com/docs" target="_blank" rel="noopener noreferrer">官方文档</a></p>
 </blockquote>
@@ -343,310 +326,6 @@ $<span class="token property">colDistance</span><span class="token punctuation">
     <published>2023-10-31T00:00:00.000Z</published>
   </entry>
   <entry>
-    <title type="text">文章测试</title>
-    <id>https://blog.yuchen.tech/posts/article.html</id>
-    <link href="https://blog.yuchen.tech/posts/article.html"/>
-    <updated>2023-10-27T09:42:05.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 文章测试</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> 文章测试</h1>
-<h2> 标题 2</h2>
-<p>这里是内容。</p>
-<h3> 标题 3</h3>
-<p>这里是内容。</p>
-]]></content>
-    <published>2022-01-12T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">css代码片段测试</title>
-    <id>https://blog.yuchen.tech/snippets/css/test.html</id>
-    <link href="https://blog.yuchen.tech/snippets/css/test.html"/>
-    <updated>2023-10-25T09:52:14.000Z</updated>
-    <summary type="html"><![CDATA[<h1> css代码片段测试</h1>
-]]></summary>
-    <content type="html"><![CDATA[<h1> css代码片段测试</h1>
-]]></content>
-    <published>2023-10-25T09:52:14.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">js代码片段测试</title>
-    <id>https://blog.yuchen.tech/snippets/js/test.html</id>
-    <link href="https://blog.yuchen.tech/snippets/js/test.html"/>
-    <updated>2023-10-25T09:52:14.000Z</updated>
-    <summary type="html"><![CDATA[<h1> js代码片段测试</h1>
-]]></summary>
-    <content type="html"><![CDATA[<h1> js代码片段测试</h1>
-]]></content>
-    <published>2023-10-25T09:52:14.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">幻灯片页</title>
-    <id>https://blog.yuchen.tech/slides.html</id>
-    <link href="https://blog.yuchen.tech/slides.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<!-- markdownlint-disable MD024 MD033 MD051 -->
-]]></summary>
-    <content type="html"><![CDATA[<!-- markdownlint-disable MD024 MD033 MD051 -->
-]]></content>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">主要功能与配置演示</title>
-    <id>https://blog.yuchen.tech/demo/</id>
-    <link href="https://blog.yuchen.tech/demo/"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<h2> 目录</h2>
-<ul>
-<li>
-<p><a href="/demo/markdown.html" target="blank">Markdown 展示</a></p>
-</li>
-<li>
-<p><a href="/demo/page.html" target="blank">页面展示</a></p>
-</li>
-<li>
-<p><a href="/demo/disable.html" target="blank">禁用展示</a></p>
-</li>
-<li>
-<p><a href="/demo/encrypt.html" target="blank">加密展示</a></p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2> 目录</h2>
-<ul>
-<li>
-<p><a href="/demo/markdown.html" target="blank">Markdown 展示</a></p>
-</li>
-<li>
-<p><a href="/demo/page.html" target="blank">页面展示</a></p>
-</li>
-<li>
-<p><a href="/demo/disable.html" target="blank">禁用展示</a></p>
-</li>
-<li>
-<p><a href="/demo/encrypt.html" target="blank">加密展示</a></p>
-</li>
-</ul>
-]]></content>
-    <category term="使用指南"/>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">布局与功能禁用</title>
-    <id>https://blog.yuchen.tech/demo/disable.html</id>
-    <link href="https://blog.yuchen.tech/demo/disable.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p>
-<!-- more -->
-<p>本页面就是一个示例，禁用了如下功能:</p>
-<ul>
-<li>导航栏</li>
-<li>侧边栏</li>
-<li>路径导航</li>
-<li>页面信息</li>
-<li>贡献者</li>
-<li>编辑此页链接</li>
-<li>更新时间</li>
-<li>上一篇/下一篇 链接</li>
-<li>评论</li>
-<li>页脚</li>
-<li>返回顶部按钮</li>
-</ul>
-]]></content>
-    <category term="使用指南"/>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">密码加密的文章</title>
-    <id>https://blog.yuchen.tech/demo/encrypt.html</id>
-    <link href="https://blog.yuchen.tech/demo/encrypt.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<h1> 密码加密的文章</h1>
-<p>实际的文章内容。</p>
-<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
-<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> 密码加密的文章</h1>
-<p>实际的文章内容。</p>
-<p>段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字段落 1 文字。</p>
-<p>段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字段落 2 文字。</p>
-]]></content>
-    <category term="使用指南"/>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">Markdown 展示</title>
-    <id>https://blog.yuchen.tech/demo/markdown.html</id>
-    <link href="https://blog.yuchen.tech/demo/markdown.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>
-<p>你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。</p>
-<p>你应该创建和编写 Markdown 文件，以便 VuePress 可以根据文件结构将它们转换为不同的页面。</p>
-<!-- more -->
-<h2> Markdown 介绍</h2>
-<p>如果你是一个新手，还不会编写 Markdown，请先阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/" target="_blank" rel="noopener noreferrer">Markdown 介绍</a> 和 <a href="https://theme-hope.vuejs.press/zh/cookbook/markdown/demo.html" target="_blank" rel="noopener noreferrer">Markdown 演示</a>。</p>
-<h2> Markdown 配置</h2>
-<p>VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。</p>
-<div class="hint-container info">
-<p class="hint-container-title">相关信息</p>
-<p>Frontmatter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter 介绍</a>。</p>
-</div>
-<h2> Markdown 扩展</h2>
-<p>VuePress 会使用 <a href="https://github.com/markdown-it/markdown-it" target="_blank" rel="noopener noreferrer">markdown-it</a> 来解析 Markdown 内容，因此可以借助于 markdown-it 插件来实现 <a href="https://github.com/markdown-it/markdown-it#syntax-extensions" target="_blank" rel="noopener noreferrer">语法扩展</a> 。</p>
-<h3> VuePress 扩展</h3>
-<p>为了丰富文档写作，VuePress 对 Markdown 语法进行了扩展。</p>
-<p>关于这些扩展，请阅读 <a href="https://theme-hope.vuejs.press/zh/cookbook/vuepress/markdown.html" target="_blank" rel="noopener noreferrer">VuePress 中的 Markdown 扩展</a>。</p>
-<h3> 主题扩展</h3>
-<p>通过 <a href="https://plugin-md-enhance.vuejs.press/zh/" target="_blank" rel="noopener noreferrer"><code>vuepress-plugin-md-enhance</code></a>，主题扩展了更多 Markdown 语法，提供更加丰富的写作功能。</p>
-<h4> 自定义容器</h4>
-<div v-pre="">
-<p>安全的在 Markdown 中使用 {{ variable }}。</p>
-</div>
-<div class="hint-container info">
-<p class="hint-container-title">自定义标题</p>
-<p>信息容器，包含 <code>代码</code> 与 <a href="#%E8%87%AA%E5%AE%9A%E4%B9%89%E5%AE%B9%E5%99%A8">链接</a>。</p>
-<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></div>
-<div class="hint-container tip">
-<p class="hint-container-title">自定义标题</p>
-<p>提示容器</p>
-</div>
-<div class="hint-container warning">
-<p class="hint-container-title">自定义标题</p>
-<p>警告容器</p>
-</div>
-<div class="hint-container danger">
-<p class="hint-container-title">自定义标题</p>
-<p>危险容器</p>
-</div>
-<details class="hint-container details"><summary>自定义标题</summary>
-<p>详情容器</p>
-</details>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/container.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 代码块</h4>
-
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/code-tabs.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 上下角标</h4>
-<p>19<sup>th</sup> H<sub>2</sub>O</p>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/sup-sub.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 自定义对齐</h4>
-<div style="text-align:center">
-<p>我是居中的</p>
-</div>
-<div style="text-align:right">
-<p>我在右对齐</p>
-</div>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/align.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> Attrs</h4>
-<p>一个拥有 ID 的 <strong id="word">单词</strong>。</p>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/attrs.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 脚注</h4>
-<p>此文字有脚注<sup class="footnote-ref"><a href="#footnote1">[1]</a><a class="footnote-anchor" id="footnote-ref1"></a></sup><a class="footnote-anchor" id="footnote-ref1">.</a></p><a class="footnote-anchor" id="footnote-ref1">
-</a><ul><a class="footnote-anchor" id="footnote-ref1">
-</a><li><a class="footnote-anchor" id="footnote-ref1"></a><a href="https://theme-hope.vuejs.press/zh/guide/markdown/footnote.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 标记</h4>
-<p>你可以标记 <mark>重要的内容</mark> 。</p>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/mark.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 任务列表</h4>
-<ul class="task-list-container">
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" checked="checked" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> 计划 1</label></p>
-</li>
-<li class="task-list-item">
-<p><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> 计划 2</label></p>
-</li>
-<li>
-<p><a href="https://theme-hope.vuejs.press/zh/guide/markdown/tasklist.html" target="_blank" rel="noopener noreferrer">查看详情</a></p>
-</li>
-</ul>
-<h3> 图片增强</h3>
-<p>支持为图片设置颜色模式和大小</p>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/image.html" target="_blank" rel="noopener noreferrer">查看详情</a></li>
-</ul>
-<h4> 卡片</h4>
-]]></content>
-    <category term="使用指南"/>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">页面配置</title>
-    <id>https://blog.yuchen.tech/demo/page.html</id>
-    <link href="https://blog.yuchen.tech/demo/page.html"/>
-    <updated>2023-10-24T16:19:23.000Z</updated>
-    <summary type="html"><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p><code>more</code> 注释之前的内容被视为文章摘要。</p>
-<!-- more -->
-<h2> 页面信息</h2>
-<p>你可以在 Markdown 的 Frontmatter 中设置页面信息。</p>
-<ul>
-<li>作者设置为 Ms.Hope。</li>
-<li>写作日期为 2020 年 1 月 1 日</li>
-<li>分类为 “使用指南”</li>
-<li>标签为 “页面配置” 和 “使用指南”</li>
-</ul>
-<h2> 页面内容</h2>
-<p>你可以自由在这里书写你的 Markdown。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<ul>
-<li>
-<p>你可以将图片和 Markdown 文件放置在一起，但是你需要使用<strong>相对链接</strong><code>./</code> 进行引用。</p>
-</li>
-<li>
-<p>对于 <code>.vuepress/public</code> 文件夹的图片，请使用绝对链接 <code>/</code> 进行引用。</p>
-</li>
-</ul>
-</div>
-<p>主题包含了一个自定义徽章可以使用:</p>
-<blockquote>
-<p>文字结尾应该有深蓝色的 徽章文字 徽章。 </p>
-</blockquote>
-<h2> 页面结构</h2>
-<p>此页面应当包含:</p>
-<ul>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/breadcrumb.html" target="_blank" rel="noopener noreferrer">路径导航</a></li>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/feature/page-info.html" target="_blank" rel="noopener noreferrer">标题和页面信息</a></li>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/page.html#%E6%A0%87%E9%A2%98%E5%88%97%E8%A1%A8" target="_blank" rel="noopener noreferrer">TOC (文章标题列表)</a></li>
-<li><a href="https://theme-hope.vuejs.press/guide/feature/meta.html" target="_blank" rel="noopener noreferrer">贡献者、更新时间等页面元信息</a></li>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/feature/comment.html" target="_blank" rel="noopener noreferrer">评论</a></li>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/navbar.html" target="_blank" rel="noopener noreferrer">导航栏</a></li>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/sidebar.html" target="_blank" rel="noopener noreferrer">侧边栏</a></li>
-<li><a href="https://theme-hope.vuejs.press/zh/guide/layout/footer.html" target="_blank" rel="noopener noreferrer">页脚</a></li>
-<li>返回顶部按钮</li>
-</ul>
-<p>你可以通过主题选项和页面 Frontmatter 自定义它们。</p>
-]]></content>
-    <author>
-      <name>Ms.Hope</name>
-    </author>
-    <category term="使用指南"/>
-    <contributor>
-      <name>Ms.Hope</name>
-    </contributor>
-    <published>2020-01-01T00:00:00.000Z</published>
-    <rights>无版权</rights>
-  </entry>
-  <entry>
     <title type="text">snippets</title>
     <id>https://blog.yuchen.tech/snippets/</id>
     <link href="https://blog.yuchen.tech/snippets/"/>
@@ -658,32 +337,6 @@ $<span class="token property">colDistance</span><span class="token punctuation">
 <p>存放一些自用的代码片段，方便复制粘贴</p>
 ]]></content>
     <category term="Snippets"/>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">css</title>
-    <id>https://blog.yuchen.tech/snippets/css/</id>
-    <link href="https://blog.yuchen.tech/snippets/css/"/>
-    <updated>2023-10-25T15:31:13.000Z</updated>
-    <summary type="html"><![CDATA[<h1> css</h1>
-<p>css代码</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> css</h1>
-<p>css代码</p>
-]]></content>
-    <published>2023-10-24T16:19:23.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">js</title>
-    <id>https://blog.yuchen.tech/snippets/js/</id>
-    <link href="https://blog.yuchen.tech/snippets/js/"/>
-    <updated>2023-10-25T15:31:13.000Z</updated>
-    <summary type="html"><![CDATA[<h1> js</h1>
-<p>JavaScript代码</p>
-]]></summary>
-    <content type="html"><![CDATA[<h1> js</h1>
-<p>JavaScript代码</p>
-]]></content>
     <published>2023-10-24T16:19:23.000Z</published>
   </entry>
 </feed>
