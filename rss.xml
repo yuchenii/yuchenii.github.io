@@ -6,14 +6,30 @@
     <link>https://blog.yuchen.tech/</link>
     <description>雨辰的博客</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 05 Jan 2024 13:46:44 GMT</pubDate>
-    <lastBuildDate>Fri, 05 Jan 2024 13:46:44 GMT</lastBuildDate>
+    <pubDate>Fri, 05 Jan 2024 14:47:32 GMT</pubDate>
+    <lastBuildDate>Fri, 05 Jan 2024 14:47:32 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Nginx</category>
     <category>JS</category>
     <category>Vue</category>
     <category>Git</category>
     <category>Snippets</category>
+    <item>
+      <title>Nginx 配置</title>
+      <link>https://blog.yuchen.tech/posts/nginx-conf.html</link>
+      <guid>https://blog.yuchen.tech/posts/nginx-conf.html</guid>
+      <source url="https://blog.yuchen.tech/rss.xml">Nginx 配置</source>
+      <description>Nginx 配置 跨域 location 下添加如下配置 location / { 	#CORS 配置 	add_header &amp;apos;Access-Control-Allow-Origin&amp;apos; &amp;apos;*&amp;apos;; 	add_header &amp;apos;Access-Control-Allow-Methods&amp;apos; &amp;apos;GET, POST, OPTIONS, PUT, DELETE&amp;apos;; 	#是否允许cookie传输 	add_header &amp;apos;Access-Control-Allow-Credentials&amp;apos; &amp;apos;true&amp;apos;; 	add_header &amp;apos;Access-Control-Allow-Headers&amp;apos; 		&amp;apos;Authorization,Content-Type,Accept,Origin,User-Agent,DNT,Cache-Control,X-Mx-ReqToken,X-Data-Type,X-Requested-With,X-Data-Type,X-Auth-Token&amp;apos;; 	#针对浏览器的options预请求直接返回200，否则会被403 forbidden--invalie CORS request 	if ( $request_method = &amp;apos;OPTIONS&amp;apos; ) { 		return 200; 	} }</description>
+      <category>Nginx</category>
+      <pubDate>Fri, 05 Jan 2024 14:46:15 GMT</pubDate>
+      <content:encoded><![CDATA[<h1> Nginx 配置</h1>
+<h2> 跨域</h2>
+<p>location 下添加如下配置</p>
+<div class="language-nginx line-numbers-mode" data-ext="nginx"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 带下划线的 header 丢失问题</h2>
+<p>nginx 默认会忽略带下划线的请求头, 需在 http 下添加配置</p>
+<div class="language-nginx line-numbers-mode" data-ext="nginx"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>取消 Promise</title>
       <link>https://blog.yuchen.tech/snippets/js/abort-promise.html</link>
