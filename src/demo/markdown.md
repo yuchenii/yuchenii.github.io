@@ -1,11 +1,16 @@
 ---
 title: Markdown 展示
 icon: fab fa-markdown
-order: 2
-category:
-  - 使用指南
-tag:
-  - Markdown
+# order: 2
+# category:
+#   - 使用指南
+# tag:
+#   - Markdown
+
+# 是否添加到文章列表
+article: false
+# 是否添加到时间线
+timeline: false
 ---
 
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。

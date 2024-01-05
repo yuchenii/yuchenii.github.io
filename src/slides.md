@@ -2,6 +2,11 @@
 title: 幻灯片页
 icon: person-chalkboard
 layout: Slide
+
+# 是否添加到文章列表
+article: false
+# 是否添加到时间线
+timeline: false
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->

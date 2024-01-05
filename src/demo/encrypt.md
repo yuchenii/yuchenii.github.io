@@ -1,9 +1,14 @@
 ---
 icon: lock
-category:
-  - 使用指南
-tag:
-  - 文章加密
+# category:
+#   - 使用指南
+# tag:
+#   - 文章加密
+
+# 是否添加到文章列表
+article: false
+# 是否添加到时间线
+timeline: false
 ---
 
 # 密码加密的文章

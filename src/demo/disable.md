@@ -1,11 +1,16 @@
 ---
 title: 布局与功能禁用
 icon: gears
-order: 3
-category:
-  - 使用指南
-tag:
-  - 禁用
+# order: 3
+# category:
+#   - 使用指南
+# tag:
+#   - 禁用
+
+# 是否添加到文章列表
+article: false
+# 是否添加到时间线
+timeline: false
 
 navbar: false
 sidebar: false

@@ -1,9 +1,13 @@
 ---
+date: 2023-11-19
 category:
   - Vue
 tag:
   - Vue
   - Snippets
+star: true
+stick: true
+order: 1
 ---
 
 # 蛇形布局
