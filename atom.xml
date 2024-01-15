@@ -4,15 +4,79 @@
   <title>雨辰的博客</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2024-01-05T14:47:32.403Z</updated>
+  <updated>2024-01-15T14:40:33.454Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
-  <category term="Nginx"/>
   <category term="JS"/>
+  <category term="Nginx"/>
   <category term="Vue"/>
   <category term="Git"/>
   <category term="Snippets"/>
+  <entry>
+    <title type="text">IntersectionObserver</title>
+    <id>https://blog.yuchen.tech/posts/intersection-observer.html</id>
+    <link href="https://blog.yuchen.tech/posts/intersection-observer.html"/>
+    <updated>2024-01-15T14:39:11.000Z</updated>
+    <summary type="html"><![CDATA[<h1> IntersectionObserver</h1>
+<p>IntersectionObserver 提供了一种异步监听目标元素是否出现在视口的方法，它可以用于判断元素是否可见，从而执行相应的操作。</p>
+<h2> 基本用法</h2>
+<h3> 创建 IntersectionObserver 对象</h3>
+<p>要使用 IntersectionObserver，首先需要创建一个 IntersectionObserver 对象，然后使用该对象来监听目标元素。当目标元素出现在视口或者达到一定阈值时，会触发回调函数，从而执行相应的操作。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><pre class="language-javascript"><code><span class="token keyword">const</span> observer <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">IntersectionObserver</span><span class="token punctuation">(</span>callback<span class="token punctuation">,</span> options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h1> IntersectionObserver</h1>
+<p>IntersectionObserver 提供了一种异步监听目标元素是否出现在视口的方法，它可以用于判断元素是否可见，从而执行相应的操作。</p>
+<h2> 基本用法</h2>
+<h3> 创建 IntersectionObserver 对象</h3>
+<p>要使用 IntersectionObserver，首先需要创建一个 IntersectionObserver 对象，然后使用该对象来监听目标元素。当目标元素出现在视口或者达到一定阈值时，会触发回调函数，从而执行相应的操作。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4> callback 回调函数</h4>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>entries：一个包含了一组 IntersectionObserverEntry 对象的数组，每个对象代表了一个交叉的目标元素。</li>
+<li>observer：IntersectionObserver 对象。</li>
+</ul>
+<p>IntersectionObserverEntry 对象包含了以下属性：</p>
+<ul>
+<li>time：可见性变化的时间，是一个高精度时间戳，单位为毫秒。</li>
+<li>target：可见性变化的目标元素。</li>
+<li>intersectionRatio：可见性变化的比例。</li>
+<li>intersectionRect：目标元素的可见矩形区域。</li>
+<li>boundingClientRect：目标元素的边界矩形区域。</li>
+<li>rootBounds：可见性变化的根元素的边界矩形区域。</li>
+<li>isIntersecting：可见性变化的目标元素是否与视窗交叉。</li>
+</ul>
+<h4> options 选项</h4>
+<p>IntersectionObserver 提供了以下常见的选项：</p>
+<ul>
+<li>root：指定根元素，即目标元素所在的容器元素。</li>
+<li>rootMargin：指定根元素的边界距离，可以是一个具有以下格式的字符串：'10px 20px 30px 40px'，分别表示上、右、下、左的边界距离。</li>
+<li>threshold：指定监听的目标元素的可见性变化的阈值，可以是一个数字或一个包含多个阈值的数组。</li>
+</ul>
+<h3> 监听目标元素</h3>
+<p>接下来，需要使用 observe() 方法来监听目标元素。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>target：要监听的目标元素。</li>
+</ul>
+<p>当目标元素出现在视口或者达到一定阈值时，就会会触发回调函数</p>
+<h3> 停止监听</h3>
+<p>当不需要监听目标元素时，可以使用 unobserve() 方法来停止监听。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ul>
+<li>target：要停止监听的目标元素。</li>
+</ul>
+<h2> 图片懒加载指令</h2>
+<p>Vue指令实现</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在 main.ts 中注册指令</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 无限滚动</h2>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 组件懒加载</h2>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> slideIn 效果指令</h2>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在 main.ts 中注册指令</p>
+<div class="language-typescript line-numbers-mode" data-ext="ts"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>使用</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content>
+    <category term="JS"/>
+    <published>2024-01-15T14:39:11.000Z</published>
+  </entry>
   <entry>
     <title type="text">Nginx 配置</title>
     <id>https://blog.yuchen.tech/posts/nginx-conf.html</id>
