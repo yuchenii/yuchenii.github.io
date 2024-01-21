@@ -4,15 +4,53 @@
   <title>雨辰的博客</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2024-01-15T14:40:33.454Z</updated>
+  <updated>2024-01-21T16:16:48.315Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
+  <category term="Node"/>
   <category term="JS"/>
   <category term="Nginx"/>
   <category term="Vue"/>
   <category term="Git"/>
   <category term="Snippets"/>
+  <entry>
+    <title type="text">pnpm patch 修补第三方依赖</title>
+    <id>https://blog.yuchen.tech/posts/pnpm-patch.html</id>
+    <link href="https://blog.yuchen.tech/posts/pnpm-patch.html"/>
+    <updated>2024-01-21T16:15:24.000Z</updated>
+    <summary type="html"><![CDATA[<h1> pnpm patch 修补第三方依赖</h1>
+<p>我们开发过程中常常会遇到第三方依赖有 bug 的情况，这时我们可以使用 pnpm patch 来打补丁修复。</p>
+<h2> pnpm patch</h2>
+<p>比如，在使用 element plus 时，发现了一个 bug。首先我们需要知道正在使用的 element plus 版本，这里以 2.3.4 为例, 然后使用如下命令</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><pre class="language-bash"><code><span class="token function">pnpm</span> patch element-plus@2.3.4
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></summary>
+    <content type="html"><![CDATA[<h1> pnpm patch 修补第三方依赖</h1>
+<p>我们开发过程中常常会遇到第三方依赖有 bug 的情况，这时我们可以使用 pnpm patch 来打补丁修复。</p>
+<h2> pnpm patch</h2>
+<p>比如，在使用 element plus 时，发现了一个 bug。首先我们需要知道正在使用的 element plus 版本，这里以 2.3.4 为例, 然后使用如下命令</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>这时会出现一个临时目录，该目录可以通过 <code>--edit-dir</code> 来指定。</p>
+<figure><figcaption></figcaption></figure>
+<h2> pnpm patch-commit</h2>
+<p>然后可以在这个目录下进行修改，修改完成后使用 <code>pnpm patch-commit xxx</code> 来提交修改内容， <code>xxx</code> 为<code>pnpm patch</code>命令生成的临时目录。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>之后会在项目根目录下生成一个patches文件夹，里面是生成的patch文件。</p>
+<figure><figcaption></figcaption></figure>
+<p>同时会在<code>package.json</code>中添加一条记录</p>
+<div class="language-json line-numbers-mode" data-ext="json"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> pnpm patch-remove</h2>
+<p>如果作者修复了这个bug, 可以使用 <code>pnpm patch-remove</code> 来撤销修补。</p>
+<blockquote>
+<p>pnpm patch-remove 需要 pnpm 版本 &gt;= 8.5.0.</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>这时会删除patches文件夹下对应的patch文件和<code>package.json</code>中对应的记录。</p>
+<h2> npm&amp;yarn</h2>
+<ul>
+<li>npm 可以使用 <code>patch-package</code> 包</li>
+<li>yarn 可以使用 <code>yarn patch</code> 命令</li>
+</ul>
+]]></content>
+    <category term="Node"/>
+    <published>2024-01-21T16:15:24.000Z</published>
+  </entry>
   <entry>
     <title type="text">IntersectionObserver</title>
     <id>https://blog.yuchen.tech/posts/intersection-observer.html</id>
