@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.yuchen.tech/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
   <id>https://blog.yuchen.tech/</id>
-  <title>雨辰的博客</title>
+  <title>雨辰的博客 | 烟雨辰</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2024-01-21T16:16:48.315Z</updated>
+  <updated>2024-06-18T12:46:57.981Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
