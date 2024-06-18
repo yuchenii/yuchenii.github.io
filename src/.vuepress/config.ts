@@ -12,12 +12,12 @@ export default defineUserConfig({
   locales: {
     "/en/": {
       lang: "en-US",
-      title: "Yuchen's Blog",
+      title: "Yuchen's Blog | 烟雨辰",
       description: "Yuchen's Blog",
     },
     "/": {
       lang: "zh-CN",
-      title: "雨辰的博客",
+      title: "雨辰的博客 | 烟雨辰",
       description: "雨辰的博客",
     },
   },
