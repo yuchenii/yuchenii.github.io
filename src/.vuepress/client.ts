@@ -1,6 +1,6 @@
 // .vuepress/client.ts
 import { defineClientConfig } from "@vuepress/client";
-import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
+import { setupRunningTimeFooter } from "./components/Theme/footerRunningTime";
 import "vuepress-theme-hope/presets/shinning-feature-panel.scss"; // 主页特性闪光效果
 import "vuepress-theme-hope/presets/bounce-icon.scss"; // 图标鼠标悬浮跳动效果
 

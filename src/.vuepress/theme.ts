@@ -81,8 +81,7 @@ export default hopeTheme(
         sidebar: enSidebar,
 
         footer:
-        '<div class="framework">Framework <a target="_blank" href="https://github.com/vuepress/vuepress-next">VuePress</a><span style="padding: 0 6px;">|</span>Theme <a target="_blank" href="https://github.com/vuepress-theme-hope/vuepress-theme-hope">Hope</a></div>',
-      
+          '<div class="framework">Framework <a target="_blank" href="https://github.com/vuepress/vuepress-next">VuePress</a><span style="padding: 0 6px;">|</span>Theme <a target="_blank" href="https://github.com/vuepress-theme-hope/vuepress-theme-hope">Hope</a></div>',
 
         displayFooter: true,
 
@@ -106,9 +105,8 @@ export default hopeTheme(
         // sidebar
         sidebar: zhSidebar,
 
-        footer:
-          '<div class="framework">Framework <a target="_blank" href="https://github.com/vuepress/vuepress-next">VuePress</a><span style="padding: 0 6px;">|</span>Theme <a target="_blank" href="https://github.com/vuepress-theme-hope/vuepress-theme-hope">Hope</a></div><div class="beian"><a target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=50023702000230" style="line-height:20px;"><span style="height:20px;line-height:20px;">渝公网安备 50023702000230号</span></a><span style="padding: 0 6px;">|</span><a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2020012887号-2</a></div>',
-        
+        footer: `<div class="framework">Framework <a target="_blank" href="https://github.com/vuepress/vuepress-next">VuePress</a><span style="padding: 0 6px;">|</span>Theme <a target="_blank" href="https://github.com/vuepress-theme-hope/vuepress-theme-hope">Hope</a></div><div class="beian"><a target="_blank" href="https://beian.mps.gov.cn/#/query/webSearch?code=50023702000230" style="line-height:20px;"><span style="height:20px;line-height:20px;">渝公网安备 50023702000230号</span></a><span style="padding: 0 6px;">|</span><a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2020012887号-2</a></div>`,
+
         displayFooter: true,
 
         blog: {
@@ -144,8 +142,8 @@ export default hopeTheme(
       autoCatalog: true,
 
       prismjs: {
-        dark: 'dracula',
-        light: 'one-light'
+        dark: "dracula",
+        light: "one-light",
       },
 
       // all features are enabled for demo, only preserve features you need here
@@ -153,48 +151,48 @@ export default hopeTheme(
         align: true,
         attrs: true,
         card: true,
-  
+
         // install chart.js before enabling it
         chart: true,
-  
+
         codetabs: true,
         demo: true,
-  
+
         // install echarts before enabling it
         echarts: true,
-  
+
         figure: true,
-  
+
         // install flowchart.ts before enabling it
         flowchart: true,
-  
+
         gfm: true,
         imgLazyload: true,
         imgSize: true,
         include: true,
-  
+
         // katex 与 mathjax选择一个启用
         // install katex before enabling it
         // katex: true,
-  
+
         // install mathjax-full before enabling it
         mathjax: true,
-  
+
         mark: true,
-  
+
         // install mermaid before enabling it
         mermaid: true,
-  
+
         playground: {
           presets: ["ts", "vue"],
         },
-  
+
         // 幻灯片
         // install reveal.js before enabling it
         revealJs: {
           plugins: ["highlight", "math", "search", "notes", "zoom"],
         },
-  
+
         stylize: [
           {
             matcher: "Recommended",
@@ -212,7 +210,7 @@ export default hopeTheme(
         sup: true,
         tabs: true,
         vPre: true,
-  
+
         // install @vue/repl before enabling it
         vuePlayground: true,
       },

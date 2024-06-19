@@ -21,27 +21,31 @@
   flex-direction: column;
   justify-content: center;
 
-  .framework {
-    margin-bottom: 6px;
-    margin-left: -5px;
-    @media (max-width: 459px) {
-      margin-left: 0;
-    }
-  }
-
-  .beian {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @media (max-width: 459px) {
-      flex-direction: column;
-      a {
-        padding: 6px 0;
+  .vp-footer {
+    margin-bottom: 0;
+    .framework {
+      margin-bottom: 6px;
+      margin-left: -5px;
+      @media (max-width: 459px) {
+        margin-left: 0;
       }
-      // 隐藏竖线
-      a ~ span {
-        display: none;
+    }
+
+    .beian {
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 459px) {
+        flex-direction: column;
+        a {
+          padding: 6px 0;
+        }
+        // 隐藏竖线
+        a ~ span {
+          display: none;
+        }
       }
     }
   }
