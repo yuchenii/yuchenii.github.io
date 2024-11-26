@@ -1,0 +1,1 @@
+import{_ as s,o as t,c,a as e,b as a}from"./app-05eb8bcb.js";const o={},r=e("h1",{id:"css代码片段测试",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#css代码片段测试","aria-hidden":"true"},"#"),a(" css代码片段测试")],-1),n=[r];function _(d,i){return t(),c("div",null,n)}const l=s(o,[["render",_],["__file","test.html.vue"]]);export{l as default};

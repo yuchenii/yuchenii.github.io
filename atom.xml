@@ -4,7 +4,7 @@
   <title>雨辰的博客 | 烟雨辰</title>
   <subtitle>雨辰的博客</subtitle>
   <icon>https://blog.yuchen.tech/favicon.png</icon>
-  <updated>2024-06-19T15:44:45.159Z</updated>
+  <updated>2024-11-26T16:41:44.917Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://blog.yuchen.tech/atom.xml"/>
   <link rel="alternate" href="https://blog.yuchen.tech/"/>
@@ -14,6 +14,17 @@
   <category term="Vue"/>
   <category term="Git"/>
   <category term="Snippets"/>
+  <entry>
+    <title type="text">Follow 认证</title>
+    <id>https://blog.yuchen.tech/posts/follow.html</id>
+    <link href="https://blog.yuchen.tech/posts/follow.html"/>
+    <updated>2024-11-26T16:40:09.000Z</updated>
+    <summary type="html"><![CDATA[<p>This message is used to verify that this feed (feedId:84262672694498304) belongs to me (userId:58880821944787968). Join me in enjoying the next generation information browser <a href="https://follow.is" target="_blank" rel="noopener noreferrer">https://follow.is</a>.</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>This message is used to verify that this feed (feedId:84262672694498304) belongs to me (userId:58880821944787968). Join me in enjoying the next generation information browser <a href="https://follow.is" target="_blank" rel="noopener noreferrer">https://follow.is</a>.</p>
+]]></content>
+    <published>2024-11-27T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">pnpm patch 修补第三方依赖</title>
     <id>https://blog.yuchen.tech/posts/pnpm-patch.html</id>
