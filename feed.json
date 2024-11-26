@@ -7,17 +7,6 @@
   "favicon": "https://blog.yuchen.tech/favicon.png",
   "items": [
     {
-      "title": "Follow 认证",
-      "url": "https://blog.yuchen.tech/posts/follow.html",
-      "id": "https://blog.yuchen.tech/posts/follow.html",
-      "summary": "This message is used to verify that this feed (feedId:84262672694498304) belongs to me (userId:58880821944787968). Join me in enjoying the next generation information browser https://follow.is.",
-      "content_html": "<p>This message is used to verify that this feed (feedId:84262672694498304) belongs to me (userId:58880821944787968). Join me in enjoying the next generation information browser <a href=\"https://follow.is\" target=\"_blank\" rel=\"noopener noreferrer\">https://follow.is</a>.</p>\n",
-      "date_published": "2024-11-27T00:00:00.000Z",
-      "date_modified": "2024-11-26T16:40:09.000Z",
-      "authors": [],
-      "tags": []
-    },
-    {
       "title": "pnpm patch 修补第三方依赖",
       "url": "https://blog.yuchen.tech/posts/pnpm-patch.html",
       "id": "https://blog.yuchen.tech/posts/pnpm-patch.html",

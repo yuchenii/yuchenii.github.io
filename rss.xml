@@ -6,8 +6,8 @@
     <link>https://blog.yuchen.tech/</link>
     <description>雨辰的博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 26 Nov 2024 16:41:44 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Nov 2024 16:41:44 GMT</lastBuildDate>
+    <pubDate>Tue, 26 Nov 2024 17:13:34 GMT</pubDate>
+    <lastBuildDate>Tue, 26 Nov 2024 17:13:34 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Node</category>
@@ -16,16 +16,6 @@
     <category>Vue</category>
     <category>Git</category>
     <category>Snippets</category>
-    <item>
-      <title>Follow 认证</title>
-      <link>https://blog.yuchen.tech/posts/follow.html</link>
-      <guid>https://blog.yuchen.tech/posts/follow.html</guid>
-      <source url="https://blog.yuchen.tech/rss.xml">Follow 认证</source>
-      <description>This message is used to verify that this feed (feedId:84262672694498304) belongs to me (userId:58880821944787968). Join me in enjoying the next generation information browser https://follow.is.</description>
-      <pubDate>Wed, 27 Nov 2024 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>This message is used to verify that this feed (feedId:84262672694498304) belongs to me (userId:58880821944787968). Join me in enjoying the next generation information browser <a href="https://follow.is" target="_blank" rel="noopener noreferrer">https://follow.is</a>.</p>
-]]></content:encoded>
-    </item>
     <item>
       <title>pnpm patch 修补第三方依赖</title>
       <link>https://blog.yuchen.tech/posts/pnpm-patch.html</link>
